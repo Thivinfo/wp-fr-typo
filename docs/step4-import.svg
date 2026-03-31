@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <style>
+      .ui { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Fond page -->
+  <rect width="900" height="260" fill="#f6f7f7"/>
+
+  <!-- Légende étape -->
+  <text x="20" y="28" class="ui" font-size="12" fill="#50575e">translate.wordpress.org › votre-extension › Français › Import Translations</text>
+
+  <!-- Carte formulaire — fidèle screenshot -->
+  <rect x="20" y="44" width="380" height="200" rx="4" fill="#ffffff" stroke="#dcdcde" stroke-width="1"/>
+
+  <!-- Titre -->
+  <text x="40" y="80" class="ui" font-size="22" font-weight="600" fill="#1b8271">Import Translations</text>
+
+  <!-- Import File -->
+  <text x="40" y="114" class="ui" font-size="13" font-weight="700" fill="#1d2327">Import File:</text>
+  <rect x="40" y="122" width="130" height="26" rx="2" fill="#f0f0f0" stroke="#8c8f94" stroke-width="1"/>
+  <text x="105" y="139" class="ui" font-size="12" fill="#1d2327" text-anchor="middle">Choisir un fichier</text>
+  <text x="178" y="139" class="ui" font-size="12" fill="#50575e">Aucun fichier choisi</text>
+
+  <!-- Format -->
+  <text x="40" y="170" class="ui" font-size="13" font-weight="700" fill="#1d2327">Format:</text>
+  <rect x="40" y="178" width="240" height="28" rx="3" fill="#ffffff" stroke="#8c8f94" stroke-width="1"/>
+  <text x="55" y="196" class="ui" font-size="13" fill="#1d2327">Auto Detect</text>
+  <text x="268" y="197" class="ui" font-size="11" fill="#50575e">▾</text>
+
+  <!-- Status -->
+  <text x="40" y="226" class="ui" font-size="13" font-weight="700" fill="#1d2327">Status:</text>
+  <text x="100" y="226" class="ui" font-size="13" fill="#1b8271">Waiting</text>
+
+  <!-- Boutons -->
+  <rect x="40" y="232" width="70" height="28" rx="3" fill="#0073aa"/>
+  <text x="75" y="250" class="ui" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Import</text>
+  <text x="122" y="250" class="ui" font-size="13" fill="#2271b1" text-decoration="underline">Cancel</text>
+
+  <!-- Annotation -->
+  <line x1="75" y1="232" x2="75" y2="212" stroke="#d63638" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="16" y="194" width="118" height="20" rx="3" fill="#d63638"/>
+  <text x="75" y="208" class="ui" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">Cliquer après upload</text>
+
+  <!-- Note droite -->
+  <text x="430" y="125" class="ui" font-size="13" fill="#1d2327" font-weight="600">Étapes :</text>
+  <text x="430" y="148" class="ui" font-size="13" fill="#50575e">1. Cliquer « Choisir un fichier »</text>
+  <text x="430" y="168" class="ui" font-size="13" fill="#50575e">2. Sélectionner le .po corrigé</text>
+  <text x="430" y="188" class="ui" font-size="13" fill="#50575e">3. Laisser Format sur « Auto Detect »</text>
+  <text x="430" y="208" class="ui" font-size="13" fill="#50575e">4. Cliquer « Import »</text>
+  <text x="430" y="235" class="ui" font-size="12" fill="#787c82" font-style="italic">Status passe de Waiting → Imported</text>
+</svg>

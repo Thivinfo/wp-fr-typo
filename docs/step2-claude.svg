@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Consolas, monospace; }
+      .ui   { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Fond terminal -->
+  <rect width="900" height="420" rx="8" fill="#0e1521"/>
+
+  <!-- Barre titre fenêtre -->
+  <rect width="900" height="36" rx="8" fill="#1a2335"/>
+  <rect width="900" height="8" y="28" fill="#1a2335"/>
+  <!-- Boutons fenêtre -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="18" r="6" fill="#28c840"/>
+  <!-- Titre -->
+  <text x="450" y="23" class="ui" font-size="12" fill="#8ab4d4" text-anchor="middle">Claude Code — wp-fr-typo</text>
+
+  <!-- Contenu terminal -->
+  <!-- Ligne 1 : prompt + commande -->
+  <text x="20" y="72" class="mono" font-size="13" fill="#5af78e">❯</text>
+  <text x="36" y="72" class="mono" font-size="13" fill="#ffffff">/wp-fr-typo snap-carousel-block-style-stable-readme-fr.po</text>
+
+  <!-- Réponse skill -->
+  <text x="20" y="100" class="mono" font-size="12" fill="#8ab4d4">● Lecture de la mémoire projet... aucune entrée</text>
+  <text x="20" y="118" class="mono" font-size="12" fill="#8ab4d4">● Analyse du fichier .po — 100 chaînes (30 traduites, 70 vides)</text>
+  <text x="20" y="136" class="mono" font-size="12" fill="#8ab4d4">● Vérification des 30 chaînes existantes...</text>
+
+  <!-- Corrections trouvées -->
+  <text x="20" y="162" class="mono" font-size="12" fill="#ffbd2e">  ⚠  msgid "A block-based carousel plugin"</text>
+  <text x="20" y="178" class="mono" font-size="12" fill="#ff5f57">  −  msgstr "Un plugin de carrousel basé sur des blocs"</text>
+  <text x="20" y="194" class="mono" font-size="12" fill="#5af78e">  +  msgstr "Une extension de carrousel basée sur des blocs"</text>
+  <text x="20" y="210" class="mono" font-size="11" fill="#50677a">     ↳ plugin → extension (glossaire officiel)</text>
+
+  <!-- Séparateur -->
+  <line x1="20" y1="224" x2="880" y2="224" stroke="#1e3a52" stroke-width="1"/>
+
+  <!-- Traductions vides complétées -->
+  <text x="20" y="244" class="mono" font-size="12" fill="#8ab4d4">● Traduction des 70 chaînes vides...</text>
+
+  <text x="20" y="266" class="mono" font-size="12" fill="#50677a">  msgid  "Settings"</text>
+  <text x="20" y="282" class="mono" font-size="12" fill="#5af78e">  msgstr "Réglages"</text>
+  <text x="20" y="298" class="mono" font-size="11" fill="#50677a">     ↳ settings → réglages · espace insécable avant :</text>
+
+  <text x="20" y="320" class="mono" font-size="12" fill="#50677a">  msgid  "Are you sure you want to delete this item?"</text>
+  <text x="20" y="336" class="mono" font-size="12" fill="#5af78e">  msgstr "Confirmez-vous la suppression de cet élément ?"</text>
+  <text x="20" y="352" class="mono" font-size="11" fill="#50677a">     ↳ Are you sure → Confirmez-vous · apostrophe U+2019</text>
+
+  <!-- Bilan final -->
+  <rect x="20" y="368" width="860" height="36" rx="4" fill="#0d2a1a"/>
+  <text x="36" y="391" class="mono" font-size="12" fill="#5af78e">✔  Fichier prêt — 100/100 chaînes · 3 corrections · 70 traductions · 0 [DOUTE]</text>
+</svg>

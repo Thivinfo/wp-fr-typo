@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+  <defs>
+    <style>
+      .ui { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Fond page -->
+  <rect width="900" height="160" fill="#f6f7f7"/>
+
+  <!-- Légende étape -->
+  <text x="20" y="28" class="ui" font-size="12" fill="#50575e">translate.wordpress.org › votre-extension › Français › Export</text>
+
+  <!-- Zone formulaire export — fidèle screenshot -->
+  <rect x="20" y="44" width="860" height="48" rx="3" fill="#ffffff" stroke="#dcdcde" stroke-width="1"/>
+
+  <!-- "Import Translations" lien -->
+  <text x="40" y="73" class="ui" font-size="14" fill="#2271b1" text-decoration="underline">Import Translations</text>
+  <text x="196" y="73" class="ui" font-size="14" fill="#50575e"> • </text>
+  <text x="212" y="73" class="ui" font-size="14" fill="#2271b1" text-decoration="underline">Export</text>
+
+  <!-- Dropdown "all current" -->
+  <rect x="272" y="56" width="120" height="28" rx="3" fill="#ffffff" stroke="#8c8f94" stroke-width="1"/>
+  <text x="284" y="74" class="ui" font-size="13" fill="#1d2327">all current</text>
+  <text x="378" y="75" class="ui" font-size="11" fill="#50575e">▾</text>
+
+  <!-- " as " -->
+  <text x="400" y="74" class="ui" font-size="13" fill="#50575e">as</text>
+
+  <!-- Dropdown format — surligné bleu comme dans le vrai GlotPress -->
+  <rect x="424" y="56" width="370" height="28" rx="3" fill="#ffffff" stroke="#2271b1" stroke-width="2"/>
+  <text x="436" y="74" class="ui" font-size="13" fill="#1d2327">Portable Object Message Catalog (.po/.pot)</text>
+  <text x="782" y="75" class="ui" font-size="11" fill="#50575e">▾</text>
+
+  <!-- Annotation -->
+  <line x1="609" y1="56" x2="609" y2="36" stroke="#d63638" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="510" y="18" width="198" height="20" rx="3" fill="#d63638"/>
+  <text x="609" y="32" class="ui" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">Sélectionner ce format puis exporter</text>
+
+  <!-- Indication bas -->
+  <text x="450" y="125" class="ui" font-size="12" fill="#787c82" text-anchor="middle">Le fichier .po se télécharge — le placer dans le dossier de travail Claude Code</text>
+</svg>
