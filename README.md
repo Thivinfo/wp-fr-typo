@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/WordPress-6.0%2B-0073aa?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress 6.0+"/>
   <img src="https://img.shields.io/badge/Polyglots%20FR-Conforme-00a32a?style=flat-square" alt="Polyglots FR Conforme"/>
   <img src="https://img.shields.io/badge/Glossaire-602%20termes-f0b849?style=flat-square" alt="Glossaire 602 termes"/>
-  <img src="https://img.shields.io/badge/Licence-GPL%20v2%2B-green?style=flat-square" alt="Licence GPL v2+"/>
+  <img src="https://img.shields.io/badge/Licence-GPL%20v2%2B-%23276749?style=flat-square" alt="Licence GPL v2+"/>
 </p>
 
 <p align="center">
