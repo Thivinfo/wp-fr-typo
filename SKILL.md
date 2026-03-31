@@ -1,36 +1,36 @@
 ---
 name: wp-fr-typo
 description: >
-  Traduit des textes anglais en français en respectant a 100% les regles typographiques
-  officielles ET le glossaire officiel de l'equipe de traduction WordPress Francophone
-  (translate.wordpress.org). Declencher ce skill des que l'utilisateur demande de
-  traduire un texte, une chaine, une interface, une extension ou un theme WordPress
-  de l'anglais vers le francais, ou qu'il mentionne : "traduis", "traduire",
-  "traduction WordPress", "translate WP", "chaine a traduire", "po/pot/mo",
+  Traduit des textes anglais en français en respectant à 100% les règles typographiques
+  officielles ET le glossaire officiel de l’équipe de traduction WordPress Francophone
+  (translate.wordpress.org). Déclencher ce skill dès que l’utilisateur demande de
+  traduire un texte, une chaîne, une interface, une extension ou un thème WordPress
+  de l’anglais vers le français, ou qu’il mentionne : "traduis", "traduire",
+  "traduction WordPress", "translate WP", "chaîne à traduire", "po/pot/mo",
   "GlotPress", ou "wordpress.org/translate".
-  Ce skill est aussi utile pour verifier ou corriger une traduction francaise existante.
+  Ce skill est aussi utile pour vérifier ou corriger une traduction française existante.
 ---
 
-> **Version du glossaire** : 30/03/2026 — Source : export officiel `translate.wordpress.org/locale/fr/default/glossary/` (602 termes).
+> **Version du glossaire** : 30/03/2026 — Source : export officiel `translate.wordpress.org/locale/fr/default/glossary/` (602 termes).
 
-# Skill : Traduction WordPress FR -- Typographie + Glossaire officiel
+# Skill : Traduction WordPress FR -- Typographie + Glossaire officiel
 
-Traduction conforme a 100% aux regles Polyglots WordPress FR :
-- Regles typo : https://fr.wordpress.org/team/handbook/polyglots/les-regles-typographiques-utilisees-pour-la-traduction-de-wp-en-francais/
+Traduction conforme à 100% aux règles Polyglots WordPress FR :
+- Règles typo : https://fr.wordpress.org/team/handbook/polyglots/les-regles-typographiques-utilisees-pour-la-traduction-de-wp-en-francais/
 - Glossaire : https://translate.wordpress.org/locale/fr/default/glossary/
 
 ---
 
 ## 1. PROCESSUS DE TRADUCTION
 
-Ordre imperatif :
+Ordre impératif :
 
 1. Identifier et remplacer tous les termes du glossaire (section 3) dans le texte source.
-2. Traduire le reste en francais courant, voix active, phrases courtes.
-3. Appliquer toutes les regles typographiques (section 2).
+2. Traduire le reste en français courant, voix active, phrases courtes.
+3. Appliquer toutes les règles typographiques (section 2).
 4. Passer la checklist (section 4) point par point.
-5. Livrer le texte final pret a copier-coller dans GlotPress.
-6. Signaler tout choix non evident (terme conserve, epicene retenu, etc.).
+5. Livrer le texte final prêt à copier-coller dans GlotPress.
+6. Signaler tout choix non évident (terme conservé, épicène retenu, etc.).
 
 ---
 
@@ -38,47 +38,47 @@ Ordre imperatif :
 
 ### 2.1 Espaces et ponctuation
 
-#### Pas d'espace avant -- une espace apres
+#### Pas d’espace avant -- une espace après
 | Signe | Remarque |
 |-------|----------|
 | Point . | |
 | Virgule , | |
-| Points de suspension ... | Caractere U+2026 unique -- jamais trois points |
-| Parenthese fermante ) | |
+| Points de suspension ... | Caractère U+2026 unique -- jamais trois points |
+| Parenthèse fermante ) | |
 | Crochet fermant ] | |
 
-#### Une espace avant -- pas d'espace apres
+#### Une espace avant -- pas d’espace après
 | Signe |
 |-------|
-| Parenthese ouvrante ( |
+| Parenthèse ouvrante ( |
 | Crochet ouvrant [ |
 
-#### Espace insecable (U+00A0) avant -- espace ordinaire apres
-OBLIGATOIRE. Voir section 6 pour les contraintes d'encodage specifiques aux fichiers .po.
+#### Espace insécable (U+00A0) avant -- espace ordinaire après
+OBLIGATOIRE. Voir section 6 pour les contraintes d’encodage spécifiques aux fichiers .po.
 
 | Signe |
 |-------|
-| Deux-points : |
-| Point-virgule ; |
-| Point d'interrogation ? |
-| Point d'exclamation ! |
-| Guillemet francais fermant >> (U+00BB) |
-| Pourcentage % |
-| Unites de mesure (km, Mo, px, etc.) |
-| Symboles monetaires (euro, $, etc.) |
-| Signes mathematiques (=, <, >, ~, +) |
+| Deux-points : |
+| Point-virgule ; |
+| Point d’interrogation ? |
+| Point d’exclamation ! |
+| Guillemet français fermant >> (U+00BB) |
+| Pourcentage % |
+| Unités de mesure (km, Mo, px, etc.) |
+| Symboles monétaires (euro, $, etc.) |
+| Signes mathématiques (=, <, >, ~, +) |
 
-#### Espace ordinaire avant -- espace insecable (U+00A0) apres
+#### Espace ordinaire avant -- espace insécable (U+00A0) après
 | Signe |
 |-------|
-| Guillemet francais ouvrant << (U+00AB) |
+| Guillemet français ouvrant << (U+00AB) |
 
-Resultat attendu : << espace-insecable texte espace-insecable >>
+Résultat attendu : << espace-insécable texte espace-insécable >>
 
-#### Pas d'espace avant ni apres
+#### Pas d’espace avant ni apres
 | Signe | Remarque |
 |-------|----------|
-| Barre oblique / | Exception : espace de chaque cote si l'un des membres contient un tiret ou expression longue. |
+| Barre oblique / | Exception : espace de chaque côté si l’un des membres contient un tiret ou expression longue. |
 
 ---
 
@@ -86,111 +86,111 @@ Resultat attendu : << espace-insecable texte espace-insecable >>
 
 Utiliser ' (U+2019) -- JAMAIS ' (U+0027, ASCII droit).
 
-Correct : l'extension, c'est, j'ai
-Incorrect : l'extension (apostrophe droite)
+Correct : l’extension, c’est, j’ai
+Incorrect : l'extension (apostrophe droite)
 
 ---
 
-### 2.3 Points de suspension -- caractere unique
+### 2.3 Points de suspension -- caractère unique
 
-Utiliser le caractere unique U+2026 -- jamais trois points separes.
+Utiliser le caractère unique U+2026 -- jamais trois points séparés.
 
-Correct : Chargement...
-Incorrect : Chargement... (trois points ASCII)
+Correct : Chargement…
+Incorrect : Chargement... (trois points ASCII)
 
 ---
 
-### 2.4 Guillemets -- francais obligatoires
+### 2.4 Guillemets -- français obligatoires
 
-<< et >> avec espaces insecables interieures -- jamais guillemets anglais droits.
+<< et >> avec espaces insécables intérieures -- jamais guillemets anglais droits.
 
-Correct : Un traducteur intervient : << Ou se trouve le glossaire ? >>.
-Incorrect : Un traducteur intervient: "Ou se trouve le glossaire?".
+Correct : Un traducteur intervient : << Où se trouve le glossaire ? >>.
+Incorrect : Un traducteur intervient: "Où se trouve le glossaire?".
 
 ---
 
 ### 2.5 Majuscules
 
-Regle de base : beaucoup moins de majuscules qu'en anglais.
-Majuscule UNIQUEMENT pour : debut de phrase, noms propres, sigles.
+Règle de base : beaucoup moins de majuscules qu’en anglais.
+Majuscule UNIQUEMENT pour : début de phrase, noms propres, sigles.
 
-Exemples de declassement (anglais -> francais) :
-- Settings (milieu de phrase) -> reglages
+Exemples de déclassement (anglais -> français) :
+- Settings (milieu de phrase) -> réglages
 - Add New Post -> Ajouter un article
-- Media Library -> mediatheque
+- Media Library -> médiathèque
 - Monday, March 30 -> lundi 30 mars
 
-Majuscules accentuees obligatoires : E accent aigu, A accent grave, E accent circonflexe, etc.
-Correct : Etant donne, Editeur, A noter
-Incorrect : Etant donne (sans accent), Editeur (sans accent)
+Majuscules accentuées obligatoires : É accent aigu, À accent grave, Ê accent circonflexe, etc.
+Correct : Étant donné, Éditeur, À noter
+Incorrect : Etant donne (sans accent), Editeur (sans accent)
 
 ---
 
 ### 2.6 Nombres
 
-| Regle | Correct | Incorrect |
+| Règle | Correct | Incorrect |
 |-------|---------|-----------|
-| Separateur decimal | virgule , | point . |
-| Separateur de milliers | espace insecable | point ou virgule |
+| Séparateur décimal | virgule , | point . |
+| Séparateur de milliers | espace insécable | point ou virgule |
 | Ordinaux | 1er, 1re, 2e, 3e | 1eme, 2eme, 1st, 2nd |
-| Siecles | XXIe siecle | 21eme siecle |
+| Siècles | XXIe siècle | 21eme siècle |
 
-Exemples : 1 234,56 euros -- 100 % -- 2e version
+Exemples : 1 234,56 euros -- 100 % -- 2e version
 
 ---
 
-### 2.7 Abreviations
+### 2.7 Abréviations
 
-- Terminee par la DERNIERE LETTRE du mot -> pas de point : Mme, Dr, Pr, Me, bd
-- NON terminee par la derniere lettre -> point : M., art., cat.
-- Sigles : pas de point entre les lettres : ONU, CSS, API
-- Mr est un ANGLICISME -> REFUSE, ecrire M.
+- Terminée par la DERNIÈRE LETTRE du mot -> pas de point : Mme, Dr, Pr, Me, bd
+- NON terminée par la dernière lettre -> point : M., art., cat.
+- Sigles : pas de point entre les lettres : ONU, CSS, API
+- Mr est un ANGLICISME -> REFUSÉ, écrire M.
 
 ---
 
 ### 2.8 Accents sur les majuscules
 
 Toujours accentuer les majuscules (sauf sigles).
-Correct : Etiquette avec accent, Editeur avec accent
-Incorrect : Etiquette sans accent, Editeur sans accent
+Correct : Étiquette avec accent, Éditeur avec accent
+Incorrect : Etiquette sans accent, Editeur sans accent
 
 ---
 
 ### 2.9 Ponctuation -- cas particuliers
 
-- Fin de phrase : toujours ., ?, ! ou points de suspension
-- Fin de titre / chapitre : PAS de ponctuation.
-- Liste en une seule phrase : ; apres chaque item, . apres le dernier.
-- Apres etc. : pas de points de suspension.
-- Entre les lettres d'un sigle : pas de point.
+- Fin de phrase : toujours ., ?, ! ou points de suspension
+- Fin de titre / chapitre : PAS de ponctuation.
+- Liste en une seule phrase : ; après chaque item, . après le dernier.
+- Après etc. : pas de points de suspension.
+- Entre les lettres d’un sigle : pas de point.
 
 ---
 
-### 2.10 Redaction epicene (ecriture inclusive)
+### 2.10 Rédaction épicène (écriture inclusive)
 
-Ordre de preference :
+Ordre de préférence :
 
-1. Formulation neutre -> les personnes chargees de l'administration
-2. Formulation combinee -> les administrateurs et administratrices
-3. Point median (en dernier recours) -> les administrateur.ice.s
-   - Point median : U+00B7 (pas un point ordinaire, pas un tiret)
+1. Formulation neutre -> les personnes chargées de l’administration
+2. Formulation combinée -> les administrateurs et administratrices
+3. Point médian (en dernier recours) -> les administrateur·ice·s
+   - Point médian : U+00B7 (pas un point ordinaire, pas un tiret)
 
 ---
 
 ## 3. GLOSSAIRE OFFICIEL WORDPRESS FR
 
 Source : https://translate.wordpress.org/locale/fr/default/glossary/
-ATTENTION : Ces termes sont OBLIGATOIRES. Toute deviation est un motif de rejet.
+ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de rejet.
 
-### 3.1 Regles generales
+### 3.1 Règles générales
 
-- Vouvoiement : toujours "vous", jamais "tu".
-- Infinitif pour les boutons d'action : Save -> Enregistrer.
-- Imperatif pour conseils/aides : Click here -> Cliquez ici.
-- WordPress : toujours W et P majuscules, sans exception.
-- Ne pas traduire : noms de themes, noms d'extensions, URL, chemins de fichiers.
-- Ne pas modifier : variables gettext (%s, %1$s, etc.) et balises HTML dans les chaines.
-- URL est FEMININ : une URL (pas un URL).
+- Vouvoiement : toujours "vous", jamais "tu".
+- Infinitif pour les boutons d’action : Save -> Enregistrer.
+- Impératif pour conseils/aides : Click here -> Cliquez ici.
+- WordPress : toujours W et P majuscules, sans exception.
+- Ne pas traduire : noms de thèmes, noms d’extensions, URL, chemins de fichiers.
+- Ne pas modifier : variables gettext (%s, %1$s, etc.) et balises HTML dans les chaînes.
+- URL est FÉMININ : une URL (pas un URL).
 
 ---
 
@@ -199,7 +199,7 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute deviation est un motif de rejet.
 | Anglais | ✅ Officiel | ❌ À rejeter / Notes |
 |---------|------------|----------------------|
 | `plugin` / `plug-in` | **extension** | plugin, plug-in, greffon |
-| `post` (générique) | **publication** | post, billet ; « article » si contexte blog précis |
+| `post` (générique) | **publication** | post, billet ; « article » si contexte blog précis |
 | `save` | **enregistrer** | sauvegarder (réservé backups) |
 | `settings` | **réglages** | paramètres, configurations |
 | `edit` (action) | **modifier** | éditer |
@@ -227,17 +227,17 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute deviation est un motif de rejet.
 | `remove` | **retirer** | supprimer (sauf users/extensions/thèmes) |
 | `update` (nom) | **mise à jour** | |
 | `update` (verbe) | **mettre à jour** | updater |
-| `username` | **identifiant** | nom d'utilisateur |
+| `username` | **identifiant** | nom d’utilisateur |
 | `widget` | **widget** | non traduit |
-| `back-end` / `backend` | **interface d'administration** | |
+| `back-end` / `backend` | **interface d’administration** | |
 | `front-end` / `frontend` | **interface publique** | |
-| `hook` (action) | **crochet d'action** | |
+| `hook` (action) | **crochet d’action** | |
 | `hook` (filter) | **crochet de filtre** | |
 | `add-on` / `addon` | **module** | module complémentaire si possible |
 | `capabilities` | **permissions** | droits selon contexte |
 | `shortcode` | **code court** | |
 | `tooltip` | **infobulle** | |
-| `breadcrumb` | **fil d'ariane** | |
+| `breadcrumb` | **fil d’ariane** | |
 | `changelog` | **journal des modifications** | |
 | `thumbnail` | **miniature** | |
 | `header` | **en-tête** | masculin |
@@ -247,37 +247,37 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute deviation est un motif de rejet.
 | `deprecated` | **obsolète** | |
 | `popup` | **fenêtre surgissante** | fenêtre contextuelle selon type |
 | `Mr` | **M.** | Mr = anglicisme refusé |
-| `Are you sure` | **Confirmez-vous** | Êtes-vous sûr·e ? |
+| `Are you sure` | **Confirmez-vous** | Êtes-vous sûr·e ? |
 | `successfully` | **bien** | P. ex. : La mise à jour a bien été effectuée |
 
 ---
 
-### 3.3 Interface -- navigation et structure
+### 3.3 Interface — navigation et structure
 
-| Anglais | Francais officiel |
+| Anglais | Français officiel |
 |---------|-------------------|
 | Dashboard | tableau de bord |
-| Admin bar / Toolbar | barre d'outils |
-| Screen | ecran |
-| Screen Options | options de l'ecran |
+| Admin bar / Toolbar | barre d’outils |
+| Screen | écran |
+| Screen Options | options de l’écran |
 | Panel | panneau |
-| Settings | reglages |
-| General Settings | reglages generaux |
-| Sidebar | barre laterale |
+| Settings | réglages |
+| General Settings | réglages généraux |
+| Sidebar | barre latérale |
 | Widget area | zone de widgets |
 | Block | bloc |
-| Block editor | editeur de blocs |
-| Classic editor | editeur classique |
-| Block inserter | outil d'insertion de blocs |
-| Inspector panel / Settings sidebar | panneau de reglages (colonne laterale des reglages) |
-| Reusable block | bloc reutilisable |
-| Preview | previsualisation |
-| Fullscreen mode | mode plein ecran |
+| Block editor | éditeur de blocs |
+| Classic editor | éditeur classique |
+| Block inserter | outil d’insertion de blocs |
+| Inspector panel / Settings sidebar | panneau de réglages (colonne latérale des réglages) |
+| Reusable block | bloc réutilisable |
+| Preview | prévisualisation |
+| Fullscreen mode | mode plein écran |
 | Spotlight mode | mode focus |
-| Top toolbar | barre d'outils superieure |
-| Document overview | vue d'ensemble du document |
+| Top toolbar | barre d’outils supérieure |
+| Document overview | vue d’ensemble du document |
 | Publish | publier |
-| Update (bouton) | Mettre a jour |
+| Update (bouton) | Mettre à jour |
 | Save draft | Enregistrer le brouillon |
 | Discard | Ignorer les modifications |
 | Duplicate | Dupliquer |
@@ -286,39 +286,39 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute deviation est un motif de rejet.
 
 ### 3.4 Contenus
 
-| Anglais | Francais officiel |
+| Anglais | Français officiel |
 |---------|-------------------|
 | Post (type blog) | article |
-| Post (generique) | publication |
+| Post (générique) | publication |
 | Page | page |
-| Custom post type | type de publication personnalise |
+| Custom post type | type de publication personnalisé |
 | Attachment | fichier joint |
-| Media | medias |
+| Media | médias |
 | Featured image | image mise en avant |
 | Thumbnail | miniature |
 | Gallery | galerie |
-| Category | categorie |
-| Tag | etiquette |
+| Category | catégorie |
+| Tag | étiquette |
 | Taxonomy | taxonomie |
 | Term | terme |
 | Comment | commentaire |
 | Excerpt | extrait |
-| Revision | revision |
+| Revision | révision |
 | Draft | brouillon |
 | Pending review | en attente de relecture |
-| Sticky post | article epingle |
+| Sticky post | article épinglé |
 | Slug | identifiant |
 | Permalink | permalien |
 | Archive | archives |
 | Feed | flux |
-| Homepage / Front page | page d'accueil |
+| Homepage / Front page | page d’accueil |
 | Blog page | page des articles |
 
 ---
 
-### 3.5 Editeur de blocs / FSE / Gutenberg
+### 3.5 Éditeur de blocs / FSE / Gutenberg
 
-| Anglais | Francais officiel |
+| Anglais | Français officiel |
 |---------|-------------------|
 | Block | bloc |
 | Pattern | composition |
@@ -326,103 +326,103 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute deviation est un motif de rejet.
 | Template part | partie de gabarit |
 | Global styles | styles globaux |
 | Style variation | variation de style |
-| Site editor | editeur de site |
-| Full site editing | edition de site |
+| Site editor | éditeur de site |
+| Full site editing | édition de site |
 | Navigation block | bloc Navigation |
-| Query loop | Boucle de requete |
+| Query loop | boucle de requête |
 | Block locking | verrouillage de bloc |
 | Cover block | bloc Couverture |
 | Group block | bloc Groupe |
 | Columns block | bloc Colonnes |
-| Spacer | Espacement |
-| Separator | Separateur |
-| Embed | Incorporation |
+| Spacer | espacement |
+| Separator | séparateur |
+| Embed | incorporation |
 | Shortcode | shortcode (invariable) |
-| Custom HTML | HTML personnalise |
+| Custom HTML | HTML personnalisé |
 | theme.json | theme.json (ne pas traduire) |
 
 ---
 
-### 3.6 Utilisateurs et roles
+### 3.6 Utilisateurs et rôles
 
-| Anglais | Francais officiel |
+| Anglais | Français officiel |
 |---------|-------------------|
-| User | utilisateur.rice |
+| User | utilisateur·rice |
 | Profile | profil |
-| Role | role |
-| Administrator | administrateur.rice |
-| Editor | editeur.rice |
-| Author | auteur.rice |
-| Contributor | contributeur.rice |
-| Subscriber | abonne.e |
-| Super Admin | super administrateur.rice |
+| Role | rôle |
+| Administrator | administrateur·rice |
+| Editor | éditeur·rice |
+| Author | auteur·rice |
+| Contributor | contributeur·rice |
+| Subscriber | abonné·e |
+| Super Admin | super administrateur·rice |
 | Username | identifiant |
 | Password | mot de passe |
 | Log in | se connecter |
-| Log out | se deconnecter |
-| Register | s'inscrire |
+| Log out | se déconnecter |
+| Register | s’inscrire |
 | Account | compte |
 | Avatar | avatar |
 
 ---
 
-### 3.7 Extensions et themes
+### 3.7 Extensions et thèmes
 
-| Anglais | Francais officiel |
+| Anglais | Français officiel |
 |---------|-------------------|
 | Plugin | extension |
-| Theme | theme |
-| Child theme | theme enfant |
-| Block theme | theme de blocs |
-| Classic theme | theme classique |
+| Theme | thème |
+| Child theme | thème enfant |
+| Block theme | thème de blocs |
+| Classic theme | thème classique |
 | Activate | activer |
-| Deactivate | desactiver |
+| Deactivate | désactiver |
 | Install | installer |
-| Uninstall | desinstaller |
-| Update (nom) | mise a jour |
-| Update (verbe) | mettre a jour |
-| Upgrade | mettre a niveau |
+| Uninstall | désinstaller |
+| Update (nom) | mise à jour |
+| Update (verbe) | mettre à jour |
+| Upgrade | mettre à niveau |
 | Delete | supprimer |
 | Customize | personnaliser |
 | Customizer | Outil de personnalisation |
-| Theme options | options du theme |
-| Header | en-tete |
+| Theme options | options du thème |
+| Header | en-tête |
 | Footer | pied de page |
 | Logo | logo |
-| Background | arriere-plan |
+| Background | arrière-plan |
 
 ---
 
-### 3.8 Reglages systeme
+### 3.8 Réglages système
 
-| Anglais | Francais officiel |
+| Anglais | Français officiel |
 |---------|-------------------|
-| General | general |
-| Writing | ecriture |
+| General | général |
+| Writing | écriture |
 | Reading | lecture |
 | Discussion | commentaires |
 | Permalinks | permaliens |
-| Privacy | confidentialite |
+| Privacy | confidentialité |
 | Site title | titre du site |
 | Tagline | slogan |
 | Timezone | fuseau horaire |
 | Date format | format de date |
-| Time format | format d'heure |
+| Time format | format d’heure |
 | Language | langue |
-| Search engine visibility | visibilite pour les moteurs de recherche |
-| Homepage display | page d'accueil |
+| Search engine visibility | visibilité pour les moteurs de recherche |
+| Homepage display | page d’accueil |
 
 ---
 
-### 3.9 Termes a NE PAS traduire
+### 3.9 Termes à NE PAS traduire
 
-Conserver tels quels dans tous les contextes :
+Conserver tels quels dans tous les contextes :
 widget -- nonce -- transient -- cron -- Gutenberg -- WordPress --
-noms d'extensions -- noms de themes -- URL -- chemins PHP --
+noms d’extensions -- noms de thèmes -- URL -- chemins PHP --
 fonctions/hooks (wp_head, the_content, etc.)
 
-Variables gettext dans une chaine (%s, %1$s, %2$d) : NE JAMAIS modifier ni deplacer.
-Balises HTML dans une chaine (<strong>, <a href="...">) : NE JAMAIS modifier.
+Variables gettext dans une chaîne (%s, %1$s, %2$d) : NE JAMAIS modifier ni déplacer.
+Balises HTML dans une chaîne (<strong>, <a href="...">) : NE JAMAIS modifier.
 
 ---
 
@@ -431,183 +431,183 @@ Balises HTML dans une chaine (<strong>, <a href="...">) : NE JAMAIS modifier.
 ### Typographie
 - [ ] Apostrophes courbes (U+2019) -- pas de droites (U+0027)
 - [ ] Points de suspension U+2026 -- pas trois points ASCII
-- [ ] Guillemets francais << >> -- pas guillemets anglais
-- [ ] Espace insecable avant : ; ? ! >> % et unites
-- [ ] Espace insecable apres <<
-- [ ] Pas d'espace avant . , ... ) ]
-- [ ] Pas de majuscules inutiles (calque de l'anglais)
-- [ ] Majuscules accentuees (E accent aigu, A accent grave, etc.)
-- [ ] Separateur decimal = virgule
-- [ ] Separateur de milliers = espace insecable
-- [ ] Redaction epicene si le texte designe des personnes
-- [ ] Abreviations correctes (point ou non selon la regle)
+- [ ] Guillemets français << >> -- pas guillemets anglais
+- [ ] Espace insécable avant : ; ? ! >> % et unités
+- [ ] Espace insécable après <<
+- [ ] Pas d’espace avant . , … ) ]
+- [ ] Pas de majuscules inutiles (calque de l’anglais)
+- [ ] Majuscules accentuées (É accent aigu, À accent grave, etc.)
+- [ ] Séparateur décimal = virgule
+- [ ] Séparateur de milliers = espace insécable
+- [ ] Rédaction épicène si le texte désigne des personnes
+- [ ] Abréviations correctes (point ou non selon la règle)
 - [ ] Pas de point dans les sigles
 
 ### Glossaire
 - [ ] Pas de "plugin" -> "extension"
-- [ ] "post" generique -> "publication"
-- [ ] "settings" -> "reglages"
+- [ ] "post" générique -> "publication"
+- [ ] "settings" -> "réglages"
 - [ ] "save" -> "enregistrer"
-- [ ] "upload" -> "televerser"
+- [ ] "upload" -> "téléverser"
 - [ ] "featured image" -> "image mise en avant"
 - [ ] "pattern" -> "composition"
 - [ ] "template" -> "gabarit"
-- [ ] "tag" -> "etiquette"
+- [ ] "tag" -> "étiquette"
 - [ ] "dashboard" -> "tableau de bord"
-- [ ] "media library" -> "mediatheque"
+- [ ] "media library" -> "médiathèque"
 - [ ] "Mr" -> "M."
 - [ ] "WordPress" avec W et P majuscules
-- [ ] Variables gettext (%s, etc.) non modifiees
-- [ ] Balises HTML non modifiees
-- [ ] Vouvoiement (vous) respecte
-- [ ] Noms d'extensions/themes non traduits
+- [ ] Variables gettext (%s, etc.) non modifiées
+- [ ] Balises HTML non modifiées
+- [ ] Vouvoiement (vous) respecté
+- [ ] Noms d’extensions/thèmes non traduits
 
 ---
 
 ## 5. EXEMPLES COMPLETS
 
-| Anglais | Francais conforme |
+| Anglais | Français conforme |
 |---------|-------------------|
 | Save Changes | Enregistrer les modifications |
 | Add New Plugin | Ajouter une extension |
-| Settings | Reglages |
-| Media Library | Mediatheque |
-| Are you sure? | Confirmez-vous ? |
-| Error: invalid value. | Erreur : valeur non valide. |
-| Loading... | Chargement... (U+2026) |
-| 1 item found | 1 element trouve |
-| 100% | 100 % |
+| Settings | Réglages |
+| Media Library | Médiathèque |
+| Are you sure? | Confirmez-vous ? |
+| Error: invalid value. | Erreur : valeur non valide. |
+| Loading... | Chargement… (U+2026) |
+| 1 item found | 1 élément trouvé |
+| 100% | 100 % |
 | 2nd version | 2e version |
 | Mr. Smith | M. Smith |
-| "quoted text" | << texte entre guillemets >> |
-| it's done | c'est termine |
-| Upload your file | Televersez votre fichier |
+| "quoted text" | « texte entre guillemets » |
+| it’s done | c’est terminé |
+| Upload your file | Téléversez votre fichier |
 | Edit post | Modifier la publication |
-| Add new tag | Ajouter une etiquette |
+| Add new tag | Ajouter une étiquette |
 | Block pattern | Composition |
-| Site Editor | Editeur de site |
-| The plugin was deleted. | L'extension a ete supprimee. |
+| Site Editor | Éditeur de site |
+| The plugin was deleted. | L’extension a été supprimée. |
 | Featured image | Image mise en avant |
 | Dashboard | Tableau de bord |
 | Publish | Publier |
-| Update (bouton) | Mettre a jour |
+| Update (bouton) | Mettre à jour |
 | Trash | Corbeille |
-| Child theme | theme enfant |
-| Full site editing | edition de site |
+| Child theme | thème enfant |
+| Full site editing | édition de site |
 
 ---
 
 ## 6. NOTES POUR LES FICHIERS .PO / GETTEXT
 
-Les regles typographiques de la section 2 (quels caracteres utiliser, ou placer les espaces)
-s'appliquent integralement aux fichiers .po. Cette section couvre uniquement les contraintes
-**specifiques au format .po** qui s'ajoutent aux regles generales.
+Les règles typographiques de la section 2 (quels caractères utiliser, où placer les espaces)
+s’appliquent intégralement aux fichiers .po. Cette section couvre uniquement les contraintes
+**spécifiques au format .po** qui s’ajoutent aux règles générales.
 
-### 6.1 REGLE CRITIQUE -- encodage des caracteres dans les fichiers .po
+### 6.1 RÈGLE CRITIQUE -- encodage des caractères dans les fichiers .po
 
 Les fichiers .po sont du **texte brut UTF-8**. GlotPress et gettext ne font aucune
-interpretation des sequences d'echappement Unicode ni des entites HTML.
+interprétation des séquences d’échappement Unicode ni des entités HTML.
 
-**INTERDICTION ABSOLUE** d'ecrire des sequences d'echappement dans les chaines msgstr :
+**INTERDICTION ABSOLUE** d’écrire des séquences d’échappement dans les chaînes msgstr :
 - Pas de \uXXXX (ex: \u2019, \u00a0, \u2026, \u00ab, \u00bb, \u2014, \u00b7, \u0153, etc.)
 - Pas de &#xXXXX; ni &#NNN;
-- Pas de &nbsp; ni &laquo; ni aucune entite HTML (sauf celles deja presentes dans le msgid source)
+- Pas de &nbsp; ni &laquo; ni aucune entité HTML (sauf celles déjà présentes dans le msgid source)
 
-**Toujours inserer le caractere reel UTF-8 directement dans la chaine.**
+**Toujours insérer le caractère réel UTF-8 directement dans la chaîne.**
 
-Cela concerne TOUS les caracteres typographiques decrits en section 2 :
-apostrophe courbe, espace insecable, points de suspension, guillemets francais,
-tirets, point median, ligatures oe/OE, majuscules accentuees, symbole multiplication, etc.
+Cela concerne TOUS les caractères typographiques décrits en section 2 :
+apostrophe courbe, espace insécable, points de suspension, guillemets français,
+tirets, point médian, ligatures oe/OE, majuscules accentuées, symbole multiplication, etc.
 
-**Pourquoi** : les sequences non interpretees s'affichent telles quelles a l'ecran.
-Exemple : "Lu2019extension" au lieu de "L'extension".
+**Pourquoi** : les séquences non interprétées s’affichent telles quelles à l’écran.
+Exemple : "Lu2019extension" au lieu de "L’extension".
 
-**Methode** : lors de l'ecriture du fichier avec l'outil Write, inserer directement
-le caractere Unicode dans la chaine. Si l'outil serialise des \uXXXX malgre tout,
-appliquer un post-traitement Python pour remplacer les sequences par les vrais caracteres.
+**Méthode** : lors de l’écriture du fichier avec l’outil Write, insérer directement
+le caractère Unicode dans la chaîne. Si l’outil sérialise des \uXXXX malgré tout,
+appliquer un post-traitement Python pour remplacer les séquences par les vrais caractères.
 
-### 6.2 Regles specifiques au format .po
+### 6.2 Règles spécifiques au format .po
 
-- Conserver la casse des variables gettext : %s, %1$s, %2$d.
-- Ne jamais modifier, supprimer ni reordonner les variables gettext.
-- Ne jamais modifier les balises HTML presentes dans une chaine.
-- Les seuls echappements autorises dans un .po sont ceux du format gettext : \n (saut de ligne), \t (tabulation), \" (guillemet double litteral).
+- Conserver la casse des variables gettext : %s, %1$s, %2$d.
+- Ne jamais modifier, supprimer ni réordonner les variables gettext.
+- Ne jamais modifier les balises HTML présentes dans une chaîne.
+- Les seuls échappements autorisés dans un .po sont ceux du format gettext : \n (saut de ligne), \t (tabulation), \" (guillemet double littéral).
 
 ---
 
 ## 7. SOURCES DE REFERENCE
 
-- Regles typographiques : https://fr.wordpress.org/team/handbook/polyglots/les-regles-typographiques-utilisees-pour-la-traduction-de-wp-en-francais/
+- Règles typographiques : https://fr.wordpress.org/team/handbook/polyglots/les-regles-typographiques-utilisees-pour-la-traduction-de-wp-en-francais/
 - Glossaire officiel : https://translate.wordpress.org/locale/fr/default/glossary/
-- Erreurs frequentes : https://fr.wordpress.org/team/handbook/polyglots/le-glossaire-et-les-erreurs-de-traduction-les-plus-frequentes/
+- Erreurs fréquentes : https://fr.wordpress.org/team/handbook/polyglots/le-glossaire-et-les-erreurs-de-traduction-les-plus-frequentes/
 - Recommandations : https://fr.wordpress.org/team/handbook/traduire-wordpress-en-francais/recommandations/
 
 ---
 
 ## 8. GARDE-FOUS EN CAS DE DOUTE
 
-Ne jamais silencieusement choisir une traduction incertaine. Appliquer cette procedure :
+Ne jamais silencieusement choisir une traduction incertaine. Appliquer cette procédure :
 
-### 8.1 Cas declencheurs d'un signal de doute
+### 8.1 Cas déclencheurs d’un signal de doute
 
-Signaler explicitement (notation `[DOUTE]`) quand :
-- Le terme n'est pas dans le glossaire officiel (section 3) ni dans la memoire (section 9)
-- Le contexte change la traduction : `post` blog vs `post` generique, `template` FSE vs classique
-- Le terme est peut-etre un nom propre (nom d'extension, nom de theme, nom de marque)
-- La chaine contient du jargon technique ambigu (API, CLI, UI/UX, slug de taxonomie)
-- La ponctuation source est inhabituelle et pourrait etre intentionnelle (ex : ellipse vs ...)
-- Le genre grammatical n'est pas evident (acronyme, neologisme, emprunt)
-- Le vouvoiement / l'epicene creerait une formulation tres lourde
+Signaler explicitement (notation `[DOUTE]`) quand :
+- Le terme n’est pas dans le glossaire officiel (section 3) ni dans la mémoire (section 9)
+- Le contexte change la traduction : `post` blog vs `post` générique, `template` FSE vs classique
+- Le terme est peut-être un nom propre (nom d’extension, nom de thème, nom de marque)
+- La chaîne contient du jargon technique ambigu (API, CLI, UI/UX, slug de taxonomie)
+- La ponctuation source est inhabituelle et pourrait être intentionnelle (ex : ellipse vs ...)
+- Le genre grammatical n’est pas évident (acronyme, néologisme, emprunt)
+- Le vouvoiement / l’épicène créerait une formulation très lourde
 
 ### 8.2 Format du signal
 
-Apres la traduction proposee, ajouter un bloc de ce type :
+Après la traduction proposée, ajouter un bloc de ce type :
 
 ```
 [DOUTE] "terme source"
 - Traduction retenue : "ma proposition"
 - Alternatives : "option B" (raison) / "option C" (raison)
-- Question : precisez le contexte si [X] ou [Y]
+- Question : précisez le contexte si [X] ou [Y]
 ```
 
-Ne jamais bloquer la livraison pour un doute : proposer la traduction la plus probable ET signaler.
+Ne jamais bloquer la livraison pour un doute : proposer la traduction la plus probable ET signaler.
 
-### 8.3 Termes a ne JAMAIS traduire sans confirmation
+### 8.3 Termes à ne JAMAIS traduire sans confirmation
 
-Si le terme ressemble a un nom propre (extension, theme, service tiers, marque) :
+Si le terme ressemble à un nom propre (extension, thème, service tiers, marque) :
 - Le conserver tel quel dans la traduction
-- Ajouter `[DOUTE - nom propre ?]` en fin de chaine
+- Ajouter `[DOUTE - nom propre ?]` en fin de chaîne
 
 ---
 
-## 9. MEMOIRE D'APPRENTISSAGE
+## 9. MÉMOIRE D’APPRENTISSAGE
 
-Le skill maintient une memoire des corrections et termes valides par projet.
-Fichiers dans `<repertoire-du-skill>/memory/` :
+Le skill maintient une mémoire des corrections et termes validés par projet.
+Fichiers dans `<répertoire-du-skill>/memory/` :
 
-- `corrections.md` — corrections apportees par l'utilisateur sur des traductions proposees
-- `project-glossary.md` — termes specifiques au projet courant (non couverts par le glossaire officiel)
+- `corrections.md` — corrections apportées par l’utilisateur sur des traductions proposées
+- `project-glossary.md` — termes spécifiques au projet courant (non couverts par le glossaire officiel)
 
-### 9.1 Lecture au demarrage
+### 9.1 Lecture au démarrage
 
-AVANT de traduire, lire ces deux fichiers s'ils existent.
-Les termes de `project-glossary.md` ont PRIORITE sur les valeurs par defaut du skill
-(sauf sur le glossaire officiel §3 qui reste non negociable).
+AVANT de traduire, lire ces deux fichiers s’ils existent.
+Les termes de `project-glossary.md` ont PRIORITÉ sur les valeurs par défaut du skill
+(sauf sur le glossaire officiel §3 qui reste non négociable).
 
-### 9.2 Ecriture apres correction
+### 9.2 Écriture après correction
 
-Quand l'utilisateur corrige une traduction proposee :
-1. Ajouter une ligne dans `corrections.md` avec le format :
-   `| EN | FR propose | FR corrige | Raison | Date |`
-2. Si la correction etablit une regle generale pour ce projet, l'ajouter dans `project-glossary.md`.
+Quand l’utilisateur corrige une traduction proposée :
+1. Ajouter une ligne dans `corrections.md` avec le format :
+   `| EN | FR proposé | FR corrigé | Raison | Date |`
+2. Si la correction établit une règle générale pour ce projet, l’ajouter dans `project-glossary.md`.
 
-### 9.3 Structure des fichiers memoire
+### 9.3 Structure des fichiers mémoire
 
 **corrections.md** :
 ```
 # Corrections de traduction
 
-| Anglais | Propose | Corrige | Raison | Date |
+| Anglais | Proposé | Corrigé | Raison | Date |
 |---------|---------|---------|--------|------|
 ```
 
@@ -615,8 +615,8 @@ Quand l'utilisateur corrige une traduction proposee :
 ```
 # Glossaire projet
 
-Termes specifiques a ce projet, prioritaires sur les valeurs par defaut.
+Termes spécifiques à ce projet, prioritaires sur les valeurs par défaut.
 
-| Anglais | Francais retenu | Contexte / Note |
+| Anglais | Français retenu | Contexte / Note |
 |---------|-----------------|-----------------|
 ```
