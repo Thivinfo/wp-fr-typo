@@ -93,7 +93,7 @@ Incorrect : l'extension (apostrophe droite)
 
 ### 2.3 Points de suspension -- caractère unique
 
-Utiliser le caractère unique U+2026 -- jamais trois points séparés.
+Utiliser le caractère unique U+2026 -- jamais trois points séparés
 
 Correct : Chargement…
 Incorrect : Chargement... (trois points ASCII)
