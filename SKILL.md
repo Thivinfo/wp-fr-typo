@@ -26,7 +26,7 @@ Traduction conforme à 100% aux règles Polyglots WordPress FR :
 Ordre impératif :
 
 1. Identifier et remplacer tous les termes du glossaire (section 3) dans le texte source.
-2. Traduire le reste en français courant, voix active, phrases courtes.
+2. Traduire le reste en français courant, voix active, phrases courtes. Appliquer la hiérarchie épicène (section 2.10) : neutre > combiné > point médian.
 3. Appliquer toutes les règles typographiques (section 2).
 4. Passer la checklist (section 4) point par point.
 5. Livrer le texte final prêt à copier-coller dans GlotPress.
@@ -168,12 +168,22 @@ Incorrect : Etiquette sans accent, Editeur sans accent
 
 ### 2.10 Rédaction épicène (écriture inclusive)
 
-Ordre de préférence :
+Hiérarchie **obligatoire** — toujours essayer le niveau supérieur avant de descendre :
 
-1. Formulation neutre -> les personnes chargées de l’administration
-2. Formulation combinée -> les administrateurs et administratrices
-3. Point médian (en dernier recours) -> les administrateur·ice·s
-   - Point médian : U+00B7 (pas un point ordinaire, pas un tiret)
+1. **Formulation neutre** (prioritaire) — reformuler sans marque de genre.
+2. **Formulation combinée** — mentionner les deux formes en toutes lettres.
+3. **Point médian** (dernier recours) — UNIQUEMENT si contrainte d’espace (libellé de bouton, en-tête de colonne, cellule étroite).
+
+| Anglais | Neutre (niveau 1) | Combiné (niveau 2) | Point médian (niveau 3) |
+|---------|-------------------|---------------------|--------------------------|
+| Administrator | personne administrant le site | administrateurs et administratrices | administrateur·rice |
+| User | personne inscrite | utilisateurs et utilisatrices | utilisateur·rice |
+| Author | personne ayant rédigé | auteurs et autrices | auteur·rice |
+| Subscriber | personne abonnée | abonnés et abonnées | abonné·e |
+
+Règles du point médian :
+- Caractère : U+00B7 · (pas un point ordinaire ., pas un tiret -)
+- Tout recours au point médian doit être signalé dans un bloc [DOUTE] (voir section 8)
 
 ---
 
@@ -247,7 +257,7 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de reje
 | `deprecated` | **obsolète** | |
 | `popup` | **fenêtre surgissante** | fenêtre contextuelle selon type |
 | `Mr` | **M.** | Mr = anglicisme refusé |
-| `Are you sure` | **Confirmez-vous** | Êtes-vous sûr·e ? |
+| `Are you sure` | **Confirmez-vous** | Êtes-vous sûr·e ? (neutre préféré au point médian) |
 | `successfully` | **bien** | P. ex. : La mise à jour a bien été effectuée |
 
 ---
@@ -345,17 +355,26 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de reje
 
 ### 3.6 Utilisateurs et rôles
 
+Choisir le niveau le plus haut possible (neutre > combiné > point médian). Le point médian n’est acceptable qu’en cas de contrainte d’espace.
+
+**Rôles (termes genrés) :**
+
+| Anglais | Neutre (prioritaire) | Combiné | Point médian (dernier recours) |
+|---------|---------------------|---------|-------------------------------|
+| User | personne inscrite | utilisateurs et utilisatrices | utilisateur·rice |
+| Administrator | personne administrant le site | administrateurs et administratrices | administrateur·rice |
+| Editor | personne chargée de l’édition | éditeurs et éditrices | éditeur·rice |
+| Author | personne ayant rédigé | auteurs et autrices | auteur·rice |
+| Contributor | personne contribuant | contributeurs et contributrices | contributeur·rice |
+| Subscriber | personne abonnée | abonnés et abonnées | abonné·e |
+| Super Admin | personne en charge de la super-administration | super administrateurs et super administratrices | super administrateur·rice |
+
+**Termes non genrés :**
+
 | Anglais | Français officiel |
 |---------|-------------------|
-| User | utilisateur·rice |
 | Profile | profil |
 | Role | rôle |
-| Administrator | administrateur·rice |
-| Editor | éditeur·rice |
-| Author | auteur·rice |
-| Contributor | contributeur·rice |
-| Subscriber | abonné·e |
-| Super Admin | super administrateur·rice |
 | Username | identifiant |
 | Password | mot de passe |
 | Log in | se connecter |
@@ -439,7 +458,9 @@ Balises HTML dans une chaîne (<strong>, <a href="...">) : NE JAMAIS modifier.
 - [ ] Majuscules accentuées (É accent aigu, À accent grave, etc.)
 - [ ] Séparateur décimal = virgule
 - [ ] Séparateur de milliers = espace insécable
-- [ ] Rédaction épicène si le texte désigne des personnes
+- [ ] Rédaction épicène : formulation neutre utilisée en priorité (niveau 1)
+- [ ] Si neutre impossible : formulation combinée utilisée (niveau 2)
+- [ ] Point médian utilisé UNIQUEMENT si contrainte d’espace empêche niveaux 1 et 2
 - [ ] Abréviations correctes (point ou non selon la règle)
 - [ ] Pas de point dans les sigles
 
@@ -494,6 +515,9 @@ Balises HTML dans une chaîne (<strong>, <a href="...">) : NE JAMAIS modifier.
 | Trash | Corbeille |
 | Child theme | thème enfant |
 | Full site editing | édition de site |
+| The administrator has been notified. | La personne chargée de l’administration a été notifiée. |
+| Contributors and Authors | Les contributeurs et contributrices, et les auteurs et autrices |
+| User (en-tête de colonne) | Utilisateur·rice |
 
 ---
 
@@ -557,7 +581,7 @@ Signaler explicitement (notation `[DOUTE]`) quand :
 - La chaîne contient du jargon technique ambigu (API, CLI, UI/UX, slug de taxonomie)
 - La ponctuation source est inhabituelle et pourrait être intentionnelle (ex : ellipse vs ...)
 - Le genre grammatical n’est pas évident (acronyme, néologisme, emprunt)
-- Le vouvoiement / l’épicène créerait une formulation très lourde
+- L’épicène : la formulation neutre (niveau 1) ou combinée (niveau 2) rend la phrase trop longue ou ambiguë — signaler si recours au point médian
 
 ### 8.2 Format du signal
 
