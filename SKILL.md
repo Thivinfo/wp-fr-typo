@@ -228,7 +228,7 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de reje
 | `query loop` | **boucle de requête** | |
 | `customize` | **personnaliser** | customiser |
 | `Customizer` | **Outil de personnalisation** | |
-| `sidebar` | **barre latérale** | colonne latérale |
+| `sidebar` | **colonne latérale** | barre latérale |
 | `tag` (taxonomie) | **étiquette** | tag |
 | `tag` (HTML) | **balise** | |
 | `slug` | **slug** | identifiant normalisé (nicename) |
@@ -274,7 +274,7 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de reje
 | Panel | panneau |
 | Settings | réglages |
 | General Settings | réglages généraux |
-| Sidebar | barre latérale |
+| Sidebar | colonne latérale |
 | Widget area | zone de widgets |
 | Block | bloc |
 | Block editor | éditeur de blocs |
