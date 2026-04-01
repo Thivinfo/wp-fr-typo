@@ -25,7 +25,7 @@ Traduction conforme à 100% aux règles Polyglots WordPress FR :
 
 Ordre impératif :
 
-1. Identifier et remplacer tous les termes du glossaire (section 3) dans le texte source.
+1. Identifier et remplacer tous les termes du glossaire (section 3 et `references/glossaire.md`) dans le texte source.
 2. Traduire le reste en français courant, voix active, phrases courtes. Appliquer la hiérarchie épicène (section 2.10) : neutre > combiné > point médian.
 3. Appliquer toutes les règles typographiques (section 2).
 4. Passer la checklist (section 4) point par point.
@@ -190,6 +190,7 @@ Règles du point médian :
 ## 3. GLOSSAIRE OFFICIEL WORDPRESS FR
 
 Source : https://translate.wordpress.org/locale/fr/default/glossary/
+Glossaire complet local : `references/glossaire.md` (602 termes avec nature grammaticale et notes).
 ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de rejet.
 
 ### 3.1 Règles générales
@@ -562,7 +563,8 @@ appliquer un post-traitement Python pour remplacer les séquences par les vrais 
 ## 7. SOURCES DE REFERENCE
 
 - Règles typographiques : https://fr.wordpress.org/team/handbook/polyglots/les-regles-typographiques-utilisees-pour-la-traduction-de-wp-en-francais/
-- Glossaire officiel : https://translate.wordpress.org/locale/fr/default/glossary/
+- Glossaire officiel (en ligne) : https://translate.wordpress.org/locale/fr/default/glossary/
+- Glossaire complet (local) : `references/glossaire.md`
 - Erreurs fréquentes : https://fr.wordpress.org/team/handbook/polyglots/le-glossaire-et-les-erreurs-de-traduction-les-plus-frequentes/
 - Recommandations : https://fr.wordpress.org/team/handbook/traduire-wordpress-en-francais/recommandations/
 

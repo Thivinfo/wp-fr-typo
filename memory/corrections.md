@@ -5,3 +5,4 @@ Ces entrées priment sur les valeurs par défaut du skill (hors glossaire offici
 
 | Anglais | Proposé | Corrigé | Raison | Date |
 |---------|---------|---------|--------|------|
+| Library | médiathèque | bibliothèque | « Library » seul = bibliothèque (glossaire officiel). « Médiathèque » est réservé UNIQUEMENT à « Media Library ». Ne pas fusionner les deux entrées. | 2026-04-01 |
