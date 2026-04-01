@@ -115,6 +115,22 @@ De retour sur translate.wordpress.org, ouvre **Import Translations**, choisis to
 npx skills add thierrypigot/wp-fr-typo
 ```
 
+## Mise à jour du skill
+
+Pour mettre à jour uniquement ce skill :
+```bash
+npx skills update --skill wp-fr-typo
+```
+
+Ou pour vérifier si une mise à jour est disponible avant d'appliquer :
+```bash
+npx skills check
+npx skills update --skill wp-fr-typo
+```
+
+Le glossaire intégré évolue avec les mises à jour de l'équipe Polyglots.
+La date du glossaire en vigueur est indiquée dans le badge en haut de ce README.
+
 ## Utilisation
 
 Mentionne l'une de ces expressions dans Claude Code pour déclencher le skill :
