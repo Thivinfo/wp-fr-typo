@@ -608,38 +608,61 @@ Si le terme ressemble à un nom propre (extension, thème, service tiers, marque
 
 ## 9. MÉMOIRE D’APPRENTISSAGE
 
-Le skill maintient une mémoire des corrections et termes validés par projet.
-Fichiers dans `<répertoire-du-skill>/memory/` :
+Le skill maintient une mémoire des corrections et des glossaires projet.
+Tous les fichiers sont stockés dans `.claude/wp-fr-typo/memory/` (dans le répertoire de travail courant de l’utilisateur).
 
-- `corrections.md` — corrections apportées par l’utilisateur sur des traductions proposées
-- `project-glossary.md` — termes spécifiques au projet courant (non couverts par le glossaire officiel)
+**Important :** ces fichiers ne font PAS partie du skill. Ils ne sont jamais écrasés lors d’une mise à jour.
 
-### 9.1 Lecture au démarrage
+### 9.1 Structure des fichiers
 
-AVANT de traduire, lire ces deux fichiers s’ils existent.
-Les termes de `project-glossary.md` ont PRIORITÉ sur les valeurs par défaut du skill
+```
+.claude/wp-fr-typo/memory/
+├── corrections.md						# global — toutes les corrections, tous projets confondus
+├── glossaire-mediapapa.md				# glossaire spécifique au projet « mediapapa »
+├── glossaire-wearewp.md				# glossaire spécifique au projet « wearewp »
+└── ...									# un fichier par projet
+```
+
+- `corrections.md` — historique global des corrections apportées par l’utilisateur (s’applique à tous les projets)
+- `glossaire-<nom-du-projet>.md` — termes spécifiques à un projet donné (non couverts par le glossaire officiel)
+
+### 9.2 Lecture au démarrage
+
+AVANT de traduire :
+1. Lire `.claude/wp-fr-typo/memory/corrections.md` s’il existe.
+2. Demander à l’utilisateur le nom du projet en cours si ce n’est pas évident du contexte.
+3. Lire `.claude/wp-fr-typo/memory/glossaire-<nom-du-projet>.md` s’il existe.
+
+Les termes du glossaire projet ont PRIORITÉ sur les valeurs par défaut du skill
 (sauf sur le glossaire officiel §3 qui reste non négociable).
 
-### 9.2 Écriture après correction
+### 9.3 Écriture
 
-Quand l’utilisateur corrige une traduction proposée :
-1. Ajouter une ligne dans `corrections.md` avec le format :
+**Quand l’utilisateur corrige une traduction :**
+1. Créer le dossier `.claude/wp-fr-typo/memory/` s’il n’existe pas.
+2. Ajouter une ligne dans `corrections.md` avec le format :
    `| EN | FR proposé | FR corrigé | Raison | Date |`
-2. Si la correction établit une règle générale pour ce projet, l’ajouter dans `project-glossary.md`.
 
-### 9.3 Structure des fichiers mémoire
+**Quand l’utilisateur demande de mémoriser un terme ou de créer un glossaire projet :**
+1. Créer le dossier `.claude/wp-fr-typo/memory/` s’il n’existe pas.
+2. Créer ou compléter `glossaire-<nom-du-projet>.md` avec le template ci-dessous.
+3. Le nom du fichier est en kebab-case (ex : `glossaire-wearewp.md`, `glossaire-flavor-flavor.md`).
+
+### 9.4 Templates
 
 **corrections.md** :
 ```
 # Corrections de traduction
 
+Corrections globales apportées par l’utilisateur. S’appliquent à tous les projets.
+
 | Anglais | Proposé | Corrigé | Raison | Date |
 |---------|---------|---------|--------|------|
 ```
 
-**project-glossary.md** :
+**glossaire-<nom-du-projet>.md** :
 ```
-# Glossaire projet
+# Glossaire projet — <Nom du projet>
 
 Termes spécifiques à ce projet, prioritaires sur les valeurs par défaut.
 

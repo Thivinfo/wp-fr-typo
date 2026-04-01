@@ -56,7 +56,7 @@ Les règles de l'équipe **Polyglots WordPress Francophone** sont strictes, et p
 - **Typographie française complète** : apostrophes courbes, espaces insécables, guillemets « », points de suspension U+2026, majuscules accentuées
 - **Fichiers .po / GlotPress** : encodage UTF-8 strict, variables gettext intactes, aucun artefact `\uXXXX`
 - **Garde-fous intelligents** : le skill signale ses doutes avec des alternatives plutôt que de choisir silencieusement
-- **Mémoire d'apprentissage** : tes corrections sont mémorisées projet par projet dans `memory/`
+- **Mémoire d'apprentissage** : tes corrections sont mémorisées projet par projet dans `.claude/wp-fr-typo/memory/`
 - **Checklist de validation** : passage point par point avant chaque livraison
 
 ---
@@ -143,14 +143,18 @@ Le skill fonctionne aussi pour **vérifier ou corriger** une traduction françai
 
 ## Mémoire d'apprentissage
 
-Le skill maintient deux fichiers dans `memory/` qui persistent entre les sessions :
+Le skill apprend de tes corrections et les mémorise **dans ton projet**, pas dans le skill lui-même. Cela garantit que tes données ne sont jamais écrasées lors d'une mise à jour du skill.
+
+Les fichiers sont stockés dans `.claude/wp-fr-typo/memory/` à la racine de ton projet :
 
 | Fichier | Rôle |
 |---------|------|
-| `memory/corrections.md` | Historique des traductions que tu as corrigées |
-| `memory/project-glossary.md` | Termes spécifiques à ton projet (ex : nom de l'extension, variantes retenues) |
+| `corrections.md` | Historique des traductions que tu as corrigées — le skill ne refera pas la même erreur |
+| `project-glossary.md` | Termes spécifiques à ton projet (ex : nom de l'extension, variantes retenues) |
 
-Ces fichiers sont lus automatiquement au démarrage. Tes préférences sont respectées projet par projet.
+Ces fichiers sont créés automatiquement par le skill lors de la première correction. Ils sont lus au démarrage de chaque session de traduction. Tes préférences sont respectées projet par projet.
+
+> **Astuce** : pense à ajouter `.claude/wp-fr-typo/memory/` à ton `.gitignore` si tu ne veux pas versionner ces fichiers.
 
 ---
 
