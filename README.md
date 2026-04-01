@@ -171,6 +171,10 @@ Ce skill est développé par **[Thierry Pigot](https://profiles.wordpress.org/th
 
 Ce skill est né d'un besoin concret rencontré lors de soumissions sur translate.wordpress.org et partagé avec la communauté francophone pour que personne n'ait à réapprendre les mêmes règles à la dure.
 
+## Contributeurs
+
+- **[@jihaisse](https://github.com/jihaisse)** — signalement de la hiérarchie d'écriture inclusive ([#1](https://github.com/thierrypigot/wp-fr-typo/issues/1))
+
 <p align="center">
   <a href="https://wearewp.pro">
     <img src="https://img.shields.io/badge/WeAre%5BWP%5D-Agence%20WordPress-0073aa?style=for-the-badge&logo=wordpress&logoColor=white" alt="WeAre[WP]"/>
