@@ -75,10 +75,15 @@ OBLIGATOIRE. Voir section 6 pour les contraintes d’encodage spécifiques aux f
 
 Résultat attendu : << espace-insécable texte espace-insécable >>
 
-#### Pas d’espace avant ni apres
+#### Pas d’espace avant ni après
 | Signe | Remarque |
 |-------|----------|
-| Barre oblique / | Exception : espace de chaque côté si l’un des membres contient un tiret ou expression longue. |
+| Barre oblique / | Aucune espace avant ni après |
+
+Correct : Local/Environnement de test -- Oui/Non -- Précédent/Suivant
+Incorrect : Local / Environnement de test (espaces autour de /)
+
+Exception : une espace avant ET après UNIQUEMENT si l’un des éléments est un nom composé avec tiret ou une expression longue, pour la lisibilité (ex. : astuce / aide à l’utilisation). Ne pas appliquer cette exception aux libellés d’alternatives (Local/Staging, Oui/Non, etc.).
 
 ---
 
@@ -455,6 +460,7 @@ Balises HTML dans une chaîne (<strong>, <a href="...">) : NE JAMAIS modifier.
 - [ ] Espace insécable avant : ; ? ! >> % et unités
 - [ ] Espace insécable après <<
 - [ ] Pas d’espace avant . , … ) ]
+- [ ] Pas d’espace autour de la barre oblique / (Local/Environnement de test, pas Local / Environnement de test)
 - [ ] Pas de majuscules inutiles (calque de l’anglais)
 - [ ] Majuscules accentuées (É accent aigu, À accent grave, etc.)
 - [ ] Séparateur décimal = virgule
@@ -519,6 +525,7 @@ Balises HTML dans une chaîne (<strong>, <a href="...">) : NE JAMAIS modifier.
 | The administrator has been notified. | La personne chargée de l’administration a été notifiée. |
 | Contributors and Authors | Les contributeurs et contributrices, et les auteurs et autrices |
 | User (en-tête de colonne) | Utilisateur·rice |
+| Local / Staging | Local/Environnement de test |
 
 ---
 
