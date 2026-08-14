@@ -11,7 +11,7 @@ description: >
   Ce skill est aussi utile pour vérifier ou corriger une traduction française existante.
 ---
 
-> **Version du glossaire** : 30/03/2026 — Source : export officiel `translate.wordpress.org/locale/fr/default/glossary/` (602 termes).
+> **Version du glossaire** : 14/08/2026 — Source : export officiel `translate.wordpress.org/locale/fr/default/glossary/` (603 termes).
 
 # Skill : Traduction WordPress FR -- Typographie + Glossaire officiel
 
@@ -190,7 +190,7 @@ Règles du point médian :
 ## 3. GLOSSAIRE OFFICIEL WORDPRESS FR
 
 Source : https://translate.wordpress.org/locale/fr/default/glossary/
-Glossaire complet local : `references/glossaire.md` (602 termes avec nature grammaticale et notes).
+Glossaire complet local : `references/glossaire.md` (603 termes avec nature grammaticale et notes).
 ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de rejet.
 
 ### 3.1 Règles générales
