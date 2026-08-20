@@ -1,7 +1,7 @@
 # Glossaire officiel WordPress fr_FR
 
 > Source : export officiel de https://translate.wordpress.org/locale/fr/default/glossary/
-> **603 termes** — Dernière mise à jour : **14/08/2026**.
+> **604 termes** — Dernière mise à jour : **19/08/2026**.
 > Maintenu par l'équipe Polyglots WordPress Francophone.
 
 ## Règles d'usage
@@ -711,6 +711,7 @@
 | `VideoPress` | VideoPress | noun |  |
 | `view` | vue | noun |  |
 | `view` | voir | verb |  |
+| `viewport` | zone d’affichage | noun |  |
 
 ## W
 
