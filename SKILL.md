@@ -18,6 +18,7 @@ description: >
 Traduction conforme à 100% aux règles Polyglots WordPress FR :
 - Règles typo : https://fr.wordpress.org/team/handbook/polyglots/les-regles-typographiques-utilisees-pour-la-traduction-de-wp-en-francais/
 - Glossaire : https://translate.wordpress.org/locale/fr/default/glossary/
+- Glossaire format CSV: https://translate.wordpress.org/locale/fr/default/glossary/-export/
 
 ---
 
