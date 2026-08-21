@@ -340,8 +340,8 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de reje
 |---------|-------------------|
 | Block | bloc |
 | Pattern | composition |
-| Template | gabarit |
-| Template part | partie de gabarit |
+| Template | modèle |
+| Template part | partie de modèle |
 | Global styles | styles globaux |
 | Style variation | variation de style |
 | Site editor | éditeur de site |
@@ -355,7 +355,7 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de reje
 | Spacer | espacement |
 | Separator | séparateur |
 | Embed | incorporation |
-| Shortcode | shortcode (invariable) |
+| Shortcode | code court (invariable) |
 | Custom HTML | HTML personnalisé |
 | theme.json | theme.json (ne pas traduire) |
 
