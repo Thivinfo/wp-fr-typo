@@ -197,7 +197,7 @@ Règles du point médian :
 ## 3. GLOSSAIRE OFFICIEL WORDPRESS FR
 
 Source : https://translate.wordpress.org/locale/fr/default/glossary/
-Glossaire complet local : `references/glossaire.md` (604 termes avec nature grammaticale et notes).
+Glossaire complet local : `references/glossaire.md` A utiliser en priorité.
 ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de rejet.
 
 ### 3.1 Règles générales
@@ -226,8 +226,8 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de reje
 | `dashboard` | **Tableau de bord** | dashboard (majuscule à Tableau) |
 | `media library` | **médiathèque** | bibliothèque de médias |
 | `featured image` | **image mise en avant** | image à la une |
-| `template` | **gabarit** (FSE/site editor) — **modèle de page** (classique) | template, gabarit seul hors FSE |
-| `template part` | **partie de gabarit** | élément de modèle |
+| `template` | **modèle** (FSE/site editor) — **modèle de page** (classique) | template, modèle seul hors FSE |
+| `template part` | **élément de modèle** | partie de gabarit |
 | `pattern` / `block pattern` | **composition** | motif toléré si non-UI |
 | `block theme` | **thème basé sur des blocs** | thème de blocs si manque de place |
 | `full site editing` / `FSE` | **éditeur de site** / **édition de site** | |
