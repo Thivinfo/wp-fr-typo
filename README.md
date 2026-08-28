@@ -109,6 +109,8 @@ De retour sur translate.wordpress.org, ouvre **Import Translations**, choisis to
 </p>
 
 ---
+## Mise a jour du Glossaire
+Le glossaire est automatiquement mis à jour par une automatisation Cursor s'il y a une modification effectuée par l'équipe WordPress francophone.
 
 ## Installation du skill
 
@@ -170,29 +172,9 @@ Ces fichiers sont créés automatiquement par le skill lors de la première corr
 
 ## À propos
 
-Ce skill est développé par **[Thierry Pigot](https://profiles.wordpress.org/thierrypigot/)**, fondateur de WeAre[WP], [agence WordPress](https://wearewp.pro) experte basée à Laval.
+Ce skill est un fork de celui de **[Thierry Pigot](https://profiles.wordpress.org/thierrypigot/)**, fondateur de WeAre[WP], [agence WordPress](https://wearewp.pro) experte basée à Laval.
 
-**20+ ans de WordPress.** Contributeur traductions WordPress FR, co-fondateur du Meetup WP Paris (1 700 membres), speaker à 16 WordCamps dont [WordCamp Nice 2026](https://www.wp-assistance.fr/support-wordpress/wordcamp-nice-2026-programme-conferences-et-compositions-wordpress/). Badges WordPress.org : Translation Contributor, Plugin Developer, WordCamp Organizer, WordCamp Speaker…
-
-Ce skill est né d'un besoin concret rencontré lors de soumissions sur translate.wordpress.org et partagé avec la communauté francophone pour que personne n'ait à réapprendre les mêmes règles à la dure.
-
-## Contributeurs
-
-- **[@jihaisse](https://github.com/jihaisse)** — signalement de la hiérarchie d'écriture inclusive ([#1](https://github.com/thierrypigot/wp-fr-typo/issues/1))
-
-<p align="center">
-  <a href="https://wearewp.pro">
-    <img src="https://img.shields.io/badge/WeAre%5BWP%5D-Agence%20WordPress-0073aa?style=for-the-badge&logo=wordpress&logoColor=white" alt="WeAre[WP]"/>
-  </a>
-  &nbsp;
-  <a href="https://profiles.wordpress.org/thierrypigot/">
-    <img src="https://img.shields.io/badge/WordPress.org-thierrypigot-21759b?style=for-the-badge&logo=wordpress&logoColor=white" alt="Profil WordPress.org"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/thierrypigot">
-    <img src="https://img.shields.io/badge/GitHub-thierrypigot-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
+Il est maintenu par **[Sébastien Serre](https://profiles.wordpress.org/sebastienserre/)**
 
 ---
 

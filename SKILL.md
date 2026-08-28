@@ -198,6 +198,7 @@ Règles du point médian :
 ## 3. GLOSSAIRE OFFICIEL WORDPRESS FR
 
 Source : https://translate.wordpress.org/locale/fr/default/glossary/
+Source CSV: https://translate.wordpress.org/locale/fr/default/glossary/-export/
 Glossaire complet local : `references/glossaire.md` A utiliser en priorité.
 ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de rejet.
 
