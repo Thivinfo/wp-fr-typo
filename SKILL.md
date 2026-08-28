@@ -29,7 +29,7 @@ Ordre impératif :
 1. Commence par Pull le repo pour etre a jour.
 2. Identifier et remplacer tous les termes du glossaire (section 3 et `references/glossaire.md`) dans le texte source.
 3. Traduire le reste en français courant, voix active, phrases courtes. Appliquer la hiérarchie épicène (section 2.10) : neutre > combiné > point médian. Ne pas traduire le nom de l'extension.
-4. Toujours traduir een priorisant les entrées du glossaire
+4. Toujours traduire en priorisant les entrées du glossaire. Ne jamais traduire les URLs.
 5. Appliquer toutes les règles typographiques (section 2).
 6. Passer la checklist (section 4) point par point.
 7. Livrer le texte final prêt à copier-coller dans GlotPress.
