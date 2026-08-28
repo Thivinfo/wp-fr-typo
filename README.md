@@ -18,7 +18,7 @@
 > **Version du glossaire intégré : 19/08/2026**
 > Le glossaire officiel WordPress FR ([translate.wordpress.org](https://translate.wordpress.org/locale/fr/default/glossary/)) est mis à jour régulièrement par l'équipe Polyglots. Si tu constates un écart entre ce skill et le glossaire en ligne, la version en ligne fait foi. N'hésite pas à [ouvrir une issue](https://github.com/thierrypigot/wp-fr-typo/issues) pour signaler un terme à mettre à jour.
 
-> Cursor AUtomation mets a jour automatiquement le glossaire chaque 10 du mois ! 
+> Cursor Automation mets a jour automatiquement le glossaire chaque jour à 11h si le glossaire officiel a été mis à jour ! 
 ---
 
 > **Vous soumettez une traduction sur GlotPress. Refusée.**
