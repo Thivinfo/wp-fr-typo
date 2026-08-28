@@ -208,8 +208,8 @@ ATTENTION : Ces termes sont OBLIGATOIRES. Toute déviation est un motif de reje
 - Infinitif pour les boutons d’action : Save -> Enregistrer.
 - Impératif pour conseils/aides : Click here -> Cliquez ici.
 - WordPress : toujours W et P majuscules, sans exception.
-- Ne pas traduire : noms de thèmes, noms d’extensions, URL, chemins de fichiers.
-- Ne pas modifier : variables gettext (%s, %1$s, etc.) et balises HTML dans les chaînes.
+- Ne JAMAIS traduire : noms de thèmes, noms d’extensions, URL, chemins de fichiers.
+- Ne JAMAIS modifier : variables gettext (%s, %1$s, etc.) et balises HTML dans les chaînes.
 - URL est FÉMININ : une URL (pas un URL).
 
 ---
