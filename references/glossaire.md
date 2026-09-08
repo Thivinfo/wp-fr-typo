@@ -1,7 +1,7 @@
 # Glossaire officiel WordPress fr_FR
 
 > Source : export officiel de https://translate.wordpress.org/locale/fr/default/glossary/
-> **604 termes** — Dernière mise à jour : **19/08/2026**.
+> **607 termes** — Dernière mise à jour : **07/09/2026**.
 > Maintenu par l'équipe Polyglots WordPress Francophone.
 
 ## Règles d'usage
@@ -247,6 +247,7 @@
 | `fix` | corriger | verb |  |
 | `Fix` | Correctif | noun | Readme |
 | `fix` | épingler | verb |  |
+| `Fixed` | Corrigé | verb | Readme |
 | `folder` | dossier | noun |  |
 | `follower` | abonné | noun |  |
 | `Font Weight` | Graisse | noun |  |
@@ -392,6 +393,7 @@
 | `metabox` | Boîte méta | noun |  |
 | `metaboxes` | Boîtes méta | noun |  |
 | `mobile` | mobile | noun |  |
+| `Modified` | Modifié | verb | Readme |
 | `mu-plugin` | Extension indispensable | noun |  |
 | `multisite` | multisite | noun | multisites (au pluriel) |
 | `must-use` | indispensable | noun | « Must-use plugin » doit être traduit par « Extension indispensable ». |
@@ -540,6 +542,7 @@
 | `rollback` | retour en arrière | noun |  |
 | `row` | ligne | noun |  |
 | `RSS` | RSS | noun |  |
+| `RSVP` | réservation | noun | Attention au contexte. À adapter si besoin. |
 
 ## S
 
