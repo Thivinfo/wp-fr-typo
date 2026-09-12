@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Glossaire%20mis%20à%20jour%20le-07%2F09%2F2026-ff6b35?style=flat-square" alt="Glossaire mis à jour le 07/09/2026"/>
+  <img src="https://img.shields.io/badge/Glossaire%20mis%20à%20jour%20le-11%2F09%2F2026-ff6b35?style=flat-square" alt="Glossaire mis à jour le 11/09/2026"/>
 </p>
 
 > [!NOTE]
-> **Version du glossaire intégré : 07/09/2026**
+> **Version du glossaire intégré : 11/09/2026**
 > Le glossaire officiel WordPress FR ([translate.wordpress.org](https://translate.wordpress.org/locale/fr/default/glossary/)) est mis à jour régulièrement par l'équipe Polyglots. Si tu constates un écart entre ce skill et le glossaire en ligne, la version en ligne fait foi. N'hésite pas à [ouvrir une issue](https://github.com/thierrypigot/wp-fr-typo/issues) pour signaler un terme à mettre à jour.
 
 > Cursor Automation mets a jour automatiquement le glossaire chaque jour à 11h si le glossaire officiel a été mis à jour ! 
