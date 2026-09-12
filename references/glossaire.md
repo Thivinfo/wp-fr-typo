@@ -1,7 +1,7 @@
 # Glossaire officiel WordPress fr_FR
 
 > Source : export officiel de https://translate.wordpress.org/locale/fr/default/glossary/
-> **607 termes** — Dernière mise à jour : **07/09/2026**.
+> **607 termes** — Dernière mise à jour : **11/09/2026**.
 > Maintenu par l'équipe Polyglots WordPress Francophone.
 
 ## Règles d'usage
@@ -38,7 +38,7 @@
 | `Allow` | Autoriser | verb |  |
 | `allowed` | autorisé | adverb |  |
 | `allows you` | vous permet de | verb |  |
-| `An error occurred` | Une erreur s‘est produite | noun |  |
+| `An error occurred` | Une erreur s’est produite | noun |  |
 | `Analytics` | Statistiques | noun | ou « Mesures d'audience ». « Outil de statistiques » / « Outil de mesure d’audience » s‘il s'agit de l‘outil/service. |
 | `API key` | Clé de l’API | noun |  |
 | `Appearance` | Apparence | noun | UI Menu |
@@ -152,7 +152,7 @@
 | `crop` | recadrer | verb |  |
 | `currency` | devise | noun |  |
 | `Custom Design` | Design sur mesure | noun | WordPress.com paid upgrade product name |
-| `Custom Header Image` | Image d’en-tête personnalisée | noun |  |
+| `Custom Header Image` | Image d’entête personnalisée | noun |  |
 | `Custom Post Type` | Type de publication personnalisé | noun |  |
 | `customer` | client/cliente | noun | ou client·e si manque de place dans l'interface, éventuellement clientèle pour généraliser dans une phrase |
 | `Customer Lifetime Value` | valeur à vie du client | expression | Abréviation en anglais : CLV |

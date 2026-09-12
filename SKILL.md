@@ -11,7 +11,7 @@ description: >
   Ce skill est aussi utile pour vérifier ou corriger une traduction française existante.
 ---
 
-> **Version du glossaire** : 07/09/2026 — Source : export officiel `translate.wordpress.org/locale/fr/default/glossary/` (607 termes).
+> **Version du glossaire** : 11/09/2026 — Source : export officiel `translate.wordpress.org/locale/fr/default/glossary/` (607 termes).
 
 # Skill : Traduction WordPress FR -- Typographie + Glossaire officiel
 
