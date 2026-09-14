@@ -178,6 +178,9 @@ Il est maintenu par **[Sébastien Serre](https://profiles.wordpress.org/sebastie
 
 ---
 
-<p align="center">
+<p style="text-align: center;">
   Conçu pour la communauté <strong>WordPress Francophone</strong> · Skill <a href="https://claude.ai/code">Claude Code</a> · Licence GPL v2+
+</p>
+<p style="text-align: center;">
+  <a href="Changelog.md">Changelog</a>
 </p>
