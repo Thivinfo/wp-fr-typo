@@ -680,3 +680,11 @@ Termes spécifiques à ce projet, prioritaires sur les valeurs par défaut.
 | Anglais | Français retenu | Contexte / Note |
 |---------|-----------------|-----------------|
 ```
+
+**Traduction du readme"":
+On ne traduit jamais les chaines trouvées dans le Changelog
+commentaire dans le `.po`:
+```
+#. Found in changelog paragraph.
+#, gp-priority: low
+```
