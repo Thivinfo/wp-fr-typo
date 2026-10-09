@@ -1,0 +1,814 @@
+# Translation of Plugins - Virtual Classroom &amp; Video Conferencing &#8211; BigBlueButton - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Virtual Classroom &amp; Video Conferencing &#8211; BigBlueButton - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Virtual Classroom &amp; Video Conferencing &#8211; BigBlueButton - Stable (latest release)\n"
+
+#: public/helpers/class-bigbluebutton-tokens-helper.php:324
+msgid "Recordings"
+msgstr "Enregistrements"
+
+#. translators: %s: room name
+#: public/helpers/class-bigbluebutton-tokens-helper.php:231
+msgid "Join %s"
+msgstr "Rejoindre %s"
+
+#. Author of the plugin
+#: video-conferencing-with-bbb.php
+msgid "Evolve"
+msgstr "Evolve"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:201
+msgid "Close"
+msgstr "Fermer"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:151
+#: admin/partials/bigbluebutton-shortcodes-display.php:166
+msgid "Available in the Pro version"
+msgstr "Disponible dans la version Pro"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:135
+msgid "= the person who joins it."
+msgstr "= la personne qui la rejoint."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:134
+msgid "Viewer"
+msgstr "Spectateur/spectatrice"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:133
+msgid "= the person who starts the class."
+msgstr "= la personne qui démarre le cours."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:130
+msgid "A shortcode is a small code you paste into a WordPress page. Each one shows a different part of the classroom."
+msgstr "Un code court est un petit code que vous collez dans une page WordPress. Chacun affiche une partie différente de la classe virtuelle."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:125
+msgid "How to add a room to a page"
+msgstr "Comment ajouter une salle à une page"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:116
+msgid "Shows recorded meetings from one room. Use the token from BBB Rooms → All Rooms → Token."
+msgstr "Affiche les réunions enregistrées d’une salle. Utilisez le jeton depuis Salles BBB → Toutes les salles → Jeton."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:107
+msgid "Recordings from one room"
+msgstr "Enregistrements d’une salle"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:102
+msgid "Shows recorded meetings from the rooms you list. Use tokens from BBB Rooms → All Rooms → Token."
+msgstr "Affiche les réunions enregistrées des salles que vous indiquez. Utilisez les jetons depuis Salles BBB → Toutes les salles → Jeton."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:93
+msgid "Recordings from several rooms"
+msgstr "Enregistrements de plusieurs salles"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:88
+msgid "Two versions (with or without room_limit) — paste only one, or the room appears twice."
+msgstr "Deux versions (avec ou sans room_limit) — n’en collez qu’une, sinon la salle apparaît deux fois."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:87
+msgid "Shows Join/Start for one room. Use the token from BBB Rooms → All Rooms → Token."
+msgstr "Affiche Rejoindre/Démarrer pour une salle. Utilisez le jeton depuis Salles BBB → Toutes les salles → Jeton."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:74
+msgid "One room with Join"
+msgstr "Une salle avec Rejoindre"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:69
+msgid "Optional: room_limit = max people at one time. This Pro attribute overrides Settings → Room Config and the room-level limit."
+msgstr "Facultatif : room_limit = nombre max. de personnes en même temps. Cet attribut Pro remplace Réglages → Configuration de la salle et la limite au niveau de la salle."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:68
+msgid "Shows only the rooms you choose (use the token from BBB Rooms → All Rooms)."
+msgstr "Affiche uniquement les salles que vous choisissez (utilisez le jeton depuis Salles BBB → Toutes les salles)."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:55
+msgid "Selected rooms with Join"
+msgstr "Salles sélectionnées avec Rejoindre"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:50
+msgid "Shows every room with a Join button."
+msgstr "Affiche chaque salle avec un bouton Rejoindre."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:41
+msgid "All rooms with Join"
+msgstr "Toutes les salles avec Rejoindre"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:36
+msgid "After login, the moderator can create and edit rooms."
+msgstr "Après connexion, la personne modératrice peut créer et modifier des salles."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:27
+msgid "Moderator room manager"
+msgstr "Gestion des salles pour modérateur/modératrice"
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:22
+msgid "Login form for the moderator (the person who starts the class)."
+msgstr "Formulaire de connexion pour la personne modératrice (celle qui démarre le cours)."
+
+#: admin/partials/bigbluebutton-shortcodes-display.php:13
+msgid "Moderator login"
+msgstr "Connexion modérateur/modératrice"
+
+#: admin/partials/bigbluebutton-settings-display.php:156
+msgid "How to limit number of users for BigBlueButton Room on WordPress"
+msgstr "Comment limiter le nombre de personnes pour une salle BigBlueButton sur WordPress"
+
+#: admin/partials/bigbluebutton-settings-display.php:155
+msgid "How to join BigBlueButton Room from WordPress"
+msgstr "Comment rejoindre une salle BigBlueButton depuis WordPress"
+
+#: admin/partials/bigbluebutton-settings-display.php:154
+msgid "How to allow instructors or users to manage BigBlueButton Rooms on WordPress"
+msgstr "Comment autoriser le corps enseignant ou les personnes inscrites à gérer les salles BigBlueButton sur WordPress"
+
+#: admin/partials/bigbluebutton-settings-display.php:153
+msgid "How to set up hosting & get Endpoint URL/Secret for Virtual Classroom for WordPress"
+msgstr "Comment configurer l’hébergement et obtenir l’URL du point de terminaison/le secret pour Virtual Classroom for WordPress"
+
+#: admin/partials/bigbluebutton-settings-display.php:151
+msgid "Tutorials"
+msgstr "Tutoriels"
+
+#: admin/partials/bigbluebutton-settings-display.php:147
+msgid "Recommended BigBlueButton Hosting"
+msgstr "Hébergement BigBlueButton recommandé"
+
+#: admin/partials/bigbluebutton-settings-display.php:146
+msgid "Contact Us"
+msgstr "Nous contacter"
+
+#: admin/partials/bigbluebutton-settings-display.php:145
+msgid "Write a Review"
+msgstr "Donner un avis"
+
+#: admin/partials/bigbluebutton-settings-display.php:144
+msgid "Support Request"
+msgstr "Demande de support"
+
+#: admin/partials/bigbluebutton-settings-display.php:143
+msgid "How to get Endpoint URL/Secret"
+msgstr "Comment obtenir l’URL du point de terminaison/le secret"
+
+#: admin/partials/bigbluebutton-settings-display.php:142
+msgid "FAQ: Commonly Occurring Issues"
+msgstr "FAQ : problèmes fréquents"
+
+#: admin/partials/bigbluebutton-settings-display.php:140
+msgid "Go To Links"
+msgstr "Liens utiles"
+
+#. translators: 1: opening anchor tag, 2: closing anchor tag
+#: admin/partials/bigbluebutton-settings-display.php:102
+msgid "Need help? Read the %1$shosting guide%2$s."
+msgstr "Besoin d’aide ? Lisez le %1$sguide d’hébergement%2$s."
+
+#: admin/partials/bigbluebutton-settings-display.php:98
+msgid "Paste your URL and Secret here, then click Save Changes."
+msgstr "Collez ici votre URL et votre secret, puis cliquez sur Enregistrer les modifications."
+
+#. translators: 1: opening Blindside link, 2: closing Blindside link, 3:
+#. opening bigbluebutton.host link, 4: closing bigbluebutton.host link
+#: admin/partials/bigbluebutton-settings-display.php:91
+msgid "For live classes, create your own account and choose a plan from %1$sBlindside Networks%2$s or %3$sbigbluebutton.host%4$s."
+msgstr "Pour des cours en direct, créez votre propre compte et choisissez une offre chez %1$sBlindside Networks%2$s ou %3$sbigbluebutton.host%4$s."
+
+#: admin/partials/bigbluebutton-settings-display.php:87
+msgid "Use the values above for testing."
+msgstr "Utilisez les valeurs ci-dessus pour les tests."
+
+#: admin/partials/bigbluebutton-settings-display.php:85
+msgid "How to set this up"
+msgstr "Comment configurer ceci"
+
+#: admin/partials/bigbluebutton-settings-display.php:68
+msgid "Test Instance:"
+msgstr "Instance de test :"
+
+#: admin/partials/bigbluebutton-settings-display.php:36
+msgid "Connected"
+msgstr "Connecté"
+
+#: admin/partials/bigbluebutton-settings-display.php:35
+msgid "Connected (Test Instance)"
+msgstr "Connecté (instance de test)"
+
+#: admin/partials/bigbluebutton-settings-display.php:28
+msgid "Connect your BigBlueButton server to power virtual classrooms."
+msgstr "Connectez votre serveur BigBlueButton pour alimenter les classes virtuelles."
+
+#: admin/partials/bigbluebutton-pro-features-display.php:29
+msgid "Upgrade to Pro"
+msgstr "Passer à la version Pro"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:26
+msgid "Everything below is included with Virtual Classroom Pro."
+msgstr "Tout ce qui suit est inclus avec Virtual Classroom Pro."
+
+#: admin/partials/bigbluebutton-pro-features-display.php:25
+msgid "Pro Version Feature"
+msgstr "Fonctionnalité de la version Pro"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:21
+#: admin/partials/bigbluebutton-shortcodes-display.php:123
+msgid "Back to Settings"
+msgstr "Retour aux réglages"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:16
+msgid "Moderator frontend room management area so teachers can log in from the site and create, edit, or start rooms without using the WordPress admin"
+msgstr "Espace de gestion des salles sur l’interface publique pour la modération, afin que le corps enseignant puisse se connecter depuis le site et créer, modifier ou démarrer des salles sans passer par l’interface d’administration de WordPress"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:15
+msgid "Pre-upload your presentation (ability to upload both globally and per room basis)"
+msgstr "Pré-téléversez votre présentation (possibilité de téléverser à la fois globalement et par salle)"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:14
+msgid "Customize thank you message when the user leaves the meeting"
+msgstr "Personnalisez le message de remerciement lorsque la personne quitte la réunion"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:13
+msgid "Change welcome message that is displayed in the Public Chat section of the room"
+msgstr "Modifiez le message d’accueil affiché dans la section Discussion publique de la salle"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:12
+msgid "Customize the room background-color as per your brand color"
+msgstr "Personnalisez la couleur d’arrière-plan de la salle selon la couleur de votre marque"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:11
+msgid "Upload your brand logo that is visible in the BBB room"
+msgstr "Téléversez le logo de votre marque, visible dans la salle BBB"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:10
+msgid "Limit the max allowed participants for a room e.g (5, 10, .. etc) both on a per room and per page basis. This can allow you to conduct a 1:1 or group session"
+msgstr "Limitez le nombre max. de personnes participantes pour une salle, p. ex. (5, 10, etc.), à la fois par salle et par page. Cela vous permet d’organiser une session en tête-à-tête ou en groupe"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:9
+msgid "Fully White-label Virtual Classroom"
+msgstr "Classe virtuelle entièrement en marque blanche"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:8
+msgid "Set a Countdown/Schedule for Room"
+msgstr "Définir un compte à rebours/une planification pour la salle"
+
+#: admin/partials/bigbluebutton-pro-features-display.php:7
+msgid "Embed BigBlueButton Room on WordPress"
+msgstr "Embarquer une salle BigBlueButton sur WordPress"
+
+#: admin/class-bigbluebutton-admin.php:463
+msgid "Continue to the Pro version page."
+msgstr "Continuer vers la page de la version Pro."
+
+#: admin/class-bigbluebutton-admin.php:439
+#: admin/class-bigbluebutton-admin.php:491
+#: admin/class-bigbluebutton-admin.php:503
+msgid "You do not have permission to access this page."
+msgstr "Vous n’avez pas l’autorisation d’accéder à cette page."
+
+#: admin/class-bigbluebutton-admin.php:399
+#: admin/partials/bigbluebutton-shortcodes-display.php:153
+msgid "PRO"
+msgstr "PRO"
+
+#: admin/class-bigbluebutton-admin.php:322
+msgid "Viewer Code"
+msgstr "Code spectateur/spectatrice"
+
+#: admin/class-bigbluebutton-admin.php:321
+msgid "Moderator Code"
+msgstr "Code modérateur/modératrice"
+
+#: admin/class-bigbluebutton-admin.php:317
+msgid "Invite URL"
+msgstr "URL d’invitation"
+
+#: admin/class-bigbluebutton-admin.php:161
+#: admin/class-bigbluebutton-admin.php:162
+#: admin/class-bigbluebutton-admin.php:398
+msgid "Pro Version Features"
+msgstr "Fonctionnalités de la version Pro"
+
+#: admin/class-bigbluebutton-admin.php:151
+msgid "Shortcodes"
+msgstr "Codes courts"
+
+#: public/class-bigbluebutton-public-recording-api.php:55
+#: public/class-bigbluebutton-public-recording-api.php:95
+#: public/class-bigbluebutton-public-recording-api.php:129
+#: public/class-bigbluebutton-public-recording-api.php:165
+msgid "Nonce verification failed"
+msgstr "Échec de la vérification du nonce"
+
+#: admin/partials/bigbluebutton-admin-notice.php:23
+msgid "Share feedback"
+msgstr "Partager un retour"
+
+#: admin/class-bigbluebutton-admin.php:790
+msgid "Unable to create or join the meeting. Please check your BigBlueButton server settings."
+msgstr "Impossible de créer ou de rejoindre la réunion. Veuillez vérifier les réglages de votre serveur BigBlueButton."
+
+#: admin/class-bigbluebutton-admin.php:785
+msgid "Invalid room or access code."
+msgstr "Salle ou code d’accès non valide."
+
+#: admin/class-bigbluebutton-admin.php:782
+#: admin/partials/bigbluebutton-shortcodes-display.php:132
+msgid "Moderator"
+msgstr "Modérateur/modératrice"
+
+#: admin/class-bigbluebutton-admin.php:776
+msgid "Security check failed"
+msgstr "Échec du contrôle de sécurité"
+
+#: admin/class-bigbluebutton-admin.php:271
+msgid "Redirecting to rooms..."
+msgstr "Redirection vers les salles…"
+
+#: admin/partials/bigbluebutton-settings-display.php:60
+msgid "Error: The server cannot be reached. Are you sure the server is running and your settings are correct?"
+msgstr "Erreur : le serveur est inaccessible. Confirmez-vous que le serveur est en cours d’exécution et que vos réglages sont corrects ?"
+
+#: admin/partials/bigbluebutton-settings-display.php:58
+msgid "Error: the URL you have entered must end with '/bigbluebutton/'."
+msgstr "Erreur : l’URL saisie doit se terminer par « /bigbluebutton/ »."
+
+#: admin/partials/bigbluebutton-settings-display.php:56
+msgid "Success! Your room server settings have been saved."
+msgstr "Succès ! Les réglages de votre serveur de salles ont bien été enregistrés."
+
+#: admin/partials/bigbluebutton-room-code-metabox-display.php:7
+msgid "Access codes must be at least 3 characters. To change it during a meeting, end the meeting first"
+msgstr "Les codes d’accès doivent comporter au moins 3 caractères. Pour les modifier pendant une réunion, terminez d’abord la réunion"
+
+#: admin/class-bigbluebutton-register-custom-types.php:195
+#: admin/class-bigbluebutton-register-custom-types.php:213
+msgid "Note:"
+msgstr "Note :"
+
+#. Plugin Name of the plugin
+#: video-conferencing-with-bbb.php
+msgid "Virtual Classroom & Video Conferencing - BigBlueButton"
+msgstr "Virtual Classroom & Video Conferencing - BigBlueButton"
+
+#: admin/partials/bigbluebutton-settings-display.php:76
+msgid "Test Instance Secret:"
+msgstr "Secret de l’instance de test :"
+
+#. Description of the plugin
+#: video-conferencing-with-bbb.php
+msgid "This plugin allows teachers to manage their virtual classrooms right from WordPress using BigBlueButton"
+msgstr "Cette extension permet au corps enseignant de gérer ses classes virtuelles directement depuis WordPress avec BigBlueButton"
+
+#. Plugin URI of the plugin
+#: video-conferencing-with-bbb.php
+msgid "https://wordpress.org/plugins/video-conferencing-with-bbb"
+msgstr "https://wordpress.org/plugins/video-conferencing-with-bbb"
+
+#: public/js/bigbluebutton-public.js:300
+msgid "Do you really want to delete this recording?"
+msgstr "Confirmez-vous la suppression de cet enregistrement ?"
+
+#: public/partials/bigbluebutton-recordings-display.php:109
+#: public/js/bigbluebutton-public.js:428
+msgid "Share Recording URL"
+msgstr "Partager l’URL de l’enregistrement"
+
+#: public/partials/bigbluebutton-recordings-display.php:27
+msgid "Action"
+msgstr "Action"
+
+#: public/partials/bigbluebutton-room-dropdown-display.php:7
+msgid "Select Room"
+msgstr "Sélectionner une salle"
+
+#: public/partials/bigbluebutton-join-display.php:56
+msgid "The participants limit for this meeting has been reached. Please try again in a while."
+msgstr "La limite de personnes participantes pour cette réunion a été atteinte. Veuillez réessayer dans un moment."
+
+#: admin/partials/bigbluebutton-admin-help-tab-shortcode.php:11
+msgid "here"
+msgstr "ici"
+
+#: admin/partials/bigbluebutton-admin-help-tab-shortcode.php:9
+msgid "See All available plugin shortcodes"
+msgstr "Voir tous les codes courts disponibles de l’extension"
+
+#: admin/partials/bigbluebutton-admin-help-tab-shortcode.php:8
+msgid "You can start the meeting from here when not adding the shortcode to a page and using the below invite link for the room"
+msgstr "Vous pouvez démarrer la réunion depuis ici lorsque vous n’ajoutez pas le code court à une page et que vous utilisez le lien d’invitation ci-dessous pour la salle"
+
+#: admin/partials/bigbluebutton-admin-help-tab-shortcode.php:7
+msgid "When adding shortcode to a page please make sure you start the meeting from that same page as a moderator"
+msgstr "Lorsque vous ajoutez un code court à une page, veuillez démarrer la réunion depuis cette même page en tant que personne modératrice"
+
+#: admin/partials/bigbluebutton-admin-help-tab-invite.php:9
+msgid "When logged-in to WP dashboard you can also start the meeting as a moderator from the invite link"
+msgstr "Une fois connecté au tableau de bord WP, vous pouvez aussi démarrer la réunion en tant que personne modératrice depuis le lien d’invitation"
+
+#: admin/partials/bigbluebutton-admin-help-tab-invite.php:8
+msgid "You can start the meeting as a moderator by clicking the Start button next to the room"
+msgstr "Vous pouvez démarrer la réunion en tant que personne modératrice en cliquant sur le bouton Démarrer à côté de la salle"
+
+#: admin/partials/bigbluebutton-admin-help-tab-invite.php:7
+msgid "Share this invite link with your users to let them join the room directly from your site"
+msgstr "Partagez ce lien d’invitation avec vos participantes et participants pour leur permettre de rejoindre la salle directement depuis votre site"
+
+#: admin/class-bigbluebutton-register-custom-types.php:131
+msgid "Home Room"
+msgstr "Salle d’accueil"
+
+#: admin/class-bigbluebutton-admin.php:821
+msgid "Add Shortcode to Page"
+msgstr "Ajouter le code court à la page"
+
+#. translators: %s: taxonomy label
+#: admin/class-bigbluebutton-admin.php:704
+msgid "Show all %s"
+msgstr "Afficher tous les %s"
+
+#: admin/class-bigbluebutton-admin.php:425
+#: public/helpers/class-bigbluebutton-display-helper.php:88
+msgid "Start"
+msgstr "Démarrer"
+
+#: admin/class-bigbluebutton-admin.php:363
+#: admin/class-bigbluebutton-admin.php:368
+msgid "Copy"
+msgstr "Copier"
+
+#: admin/class-bigbluebutton-admin.php:360 admin/js/bigbluebutton-admin.js:180
+msgid "Copy Invite URL"
+msgstr "Copier l’URL d’invitation"
+
+#: admin/class-bigbluebutton-admin.php:323
+msgid "Start Meeting"
+msgstr "Démarrer la réunion"
+
+#: admin/class-bigbluebutton-admin.php:829
+msgid "Invite Participants"
+msgstr "Inviter des personnes"
+
+#: admin/class-bigbluebutton-admin.php:410
+msgid "N/A"
+msgstr "N/D"
+
+#: admin/class-bigbluebutton-admin.php:320
+msgid "Start Time"
+msgstr "Heure de début"
+
+#: admin/class-bigbluebutton-admin.php:170
+#: admin/class-bigbluebutton-admin.php:171
+msgid "Get Pro Version"
+msgstr "Obtenir la version Pro"
+
+#: admin/class-bigbluebutton-admin.php:132
+msgid "Room Categories"
+msgstr "Catégories de salles"
+
+#: public/helpers/class-bigbluebutton-tokens-helper.php:314
+#: public/partials/bigbluebutton-recordings-display.php:81
+msgid "View Recording"
+msgstr "Voir l’enregistrement"
+
+#: public/helpers/class-bigbluebutton-display-helper.php:83
+msgid "Join Here"
+msgstr "Rejoindre ici"
+
+#: public/helpers/class-bigbluebutton-display-helper.php:165
+msgid "Download"
+msgstr "Télécharger"
+
+#: public/helpers/class-bigbluebutton-display-helper.php:164
+msgid "View"
+msgstr "Voir"
+
+#: admin/partials/bigbluebutton-settings-display.php:45
+msgid "Setup"
+msgstr "Configuration"
+
+#: admin/class-bigbluebutton-admin.php:142
+msgid "Rooms Settings"
+msgstr "Réglages des salles"
+
+#: admin/js/bigbluebutton-admin.js:146 admin/js/bigbluebutton-admin.js:149
+#: public/js/bigbluebutton-public.js:421
+msgid "Copied:"
+msgstr "Copié :"
+
+#: public/partials/bigbluebutton-recordings-display.php:104
+#: public/partials/bigbluebutton-recordings-display.php:105
+msgctxt "post status"
+msgid "Trash"
+msgstr "Corbeille"
+
+#: public/partials/bigbluebutton-recordings-display.php:30
+msgid "Manage"
+msgstr "Gérer"
+
+#: public/partials/bigbluebutton-recordings-display.php:24
+msgid "Date"
+msgstr "Date"
+
+#: public/partials/bigbluebutton-recordings-display.php:19
+msgid "Description"
+msgstr "Description"
+
+#: public/helpers/class-bigbluebutton-tokens-helper.php:277
+#: public/partials/bigbluebutton-recordings-display.php:14
+msgid "Recording"
+msgstr "Enregistrement"
+
+#: public/helpers/class-bigbluebutton-tokens-helper.php:215
+#: public/helpers/class-bigbluebutton-tokens-helper.php:252
+#: public/helpers/class-bigbluebutton-tokens-helper.php:320
+#: public/partials/bigbluebutton-recordings-display.php:8
+#: public/partials/bigbluebutton-recordings-display.php:10
+msgid "This room does not currently have any recordings."
+msgstr "Cette salle n’a actuellement aucun enregistrement."
+
+#: public/helpers/class-bigbluebutton-display-helper.php:80
+msgid "Join"
+msgstr "Rejoindre"
+
+#: public/partials/bigbluebutton-join-display.php:85
+msgid "The meeting has not started yet. Please wait for a moderator to start the meeting before joining."
+msgstr "La réunion n’a pas encore démarré. Veuillez attendre qu’une personne modératrice démarre la réunion avant de la rejoindre."
+
+#: public/partials/bigbluebutton-join-display.php:83
+msgid "The meeting has not started yet. You will be automatically redirected to the meeting when it starts."
+msgstr "La réunion n’a pas encore démarré. Une redirection automatique vers la réunion aura lieu lorsqu’elle démarrera."
+
+#: public/partials/bigbluebutton-join-display.php:62
+msgid "The access code you have entered is incorrect. Please try again."
+msgstr "Le code d’accès saisi est incorrect. Veuillez réessayer."
+
+#: public/partials/bigbluebutton-join-display.php:49
+msgid "Access Code"
+msgstr "Code d’accès"
+
+#: public/partials/bigbluebutton-join-display.php:39
+msgid "Name"
+msgstr "Nom"
+
+#: public/partials/bigbluebutton-create-widget-display.php:8
+msgid "Tokens (separated by comma)"
+msgstr "Jetons (séparés par une virgule)"
+
+#: public/helpers/class-bigbluebutton-tokens-helper.php:196
+#: public/helpers/class-bigbluebutton-tokens-helper.php:692
+msgid "The room linked to this resource is not configured correctly."
+msgstr "La salle liée à cette ressource n’est pas configurée correctement."
+
+#. translators: %s: room token
+#: public/helpers/class-bigbluebutton-tokens-helper.php:650
+msgid "The token: %s is not associated with an existing room."
+msgstr "Le jeton : %s n’est associé à aucune salle existante."
+
+#: public/helpers/class-bigbluebutton-tokens-helper.php:556
+msgid "This user does not have permission to display any rooms in a shortcode or widget."
+msgstr "Ce compte n’a pas l’autorisation d’afficher des salles dans un code court ou un widget."
+
+#: public/helpers/class-bigbluebutton-tokens-helper.php:115
+#: public/helpers/class-bigbluebutton-tokens-helper.php:203
+msgid "There are no rooms in the selection."
+msgstr "Il n’y a aucune salle dans la sélection."
+
+#: public/class-bigbluebutton-public.php:88
+#: public/helpers/class-bigbluebutton-recording-helper.php:171
+msgid "Unprotected"
+msgstr "Non protégé"
+
+#: public/class-bigbluebutton-public.php:87
+#: public/helpers/class-bigbluebutton-recording-helper.php:168
+msgid "Protected"
+msgstr "Protégé"
+
+#: public/class-bigbluebutton-public.php:86
+#: public/helpers/class-bigbluebutton-recording-helper.php:179
+msgid "Unpublished"
+msgstr "Non publié"
+
+#: public/class-bigbluebutton-public.php:85
+#: public/helpers/class-bigbluebutton-recording-helper.php:176
+msgid "Published"
+msgstr "Publié"
+
+#: public/class-bigbluebutton-public.php:84
+#: public/partials/bigbluebutton-recordings-display.php:40
+#: public/partials/bigbluebutton-recordings-display.php:41
+#: public/partials/bigbluebutton-recordings-display.php:54
+#: public/partials/bigbluebutton-recordings-display.php:55
+msgid "Edit"
+msgstr "Modifier"
+
+#: public/class-bigbluebutton-public.php:83
+#: public/partials/bigbluebutton-collapsable-recordings-display.php:9
+msgid "Collapse recordings"
+msgstr "Replier les enregistrements"
+
+#: public/class-bigbluebutton-public.php:82
+msgid "Expand recordings"
+msgstr "Déplier les enregistrements"
+
+#: public/class-bigbluebutton-public-widget.php:35
+msgid "Displays a BigBlueButton login form."
+msgstr "Affiche un formulaire de connexion BigBlueButton."
+
+#: public/class-bigbluebutton-public-room-api.php:104
+msgid "You do not have permission to enter the room. Please request permission."
+msgstr "Vous n’avez pas l’autorisation d’entrer dans la salle. Veuillez demander l’autorisation."
+
+#: includes/class-bigbluebutton-migration.php:150
+msgid "Not all room logs were able to be imported to the new version."
+msgstr "Tous les journaux de salles n’ont pas pu être importés vers la nouvelle version."
+
+#: includes/class-bigbluebutton-migration.php:143
+msgid "Not all rooms were able to be imported to the new version."
+msgstr "Toutes les salles n’ont pas pu être importées vers la nouvelle version."
+
+#. translators: %s: room name
+#: includes/class-bigbluebutton-migration.php:110
+msgid "Failed to import the room, %s."
+msgstr "Échec de l’importation de la salle, %s."
+
+#: includes/class-bigbluebutton-activator.php:179
+msgid "Anonymous"
+msgstr "Anonyme"
+
+#: admin/partials/bigbluebutton-settings-display.php:82
+#: admin/partials/bigbluebutton-settings-display.php:132
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: admin/partials/bigbluebutton-settings-display.php:73
+msgid "Shared Secret / Salt"
+msgstr "Secret partagé / Sel"
+
+#: admin/partials/bigbluebutton-settings-display.php:65
+msgid "Endpoint URL"
+msgstr "URL du point de terminaison"
+
+#: admin/partials/bigbluebutton-settings-display.php:27
+msgid "Room Settings"
+msgstr "Réglages de la salle"
+
+#: admin/class-bigbluebutton-register-custom-types.php:182
+#: admin/partials/bigbluebutton-wait-for-mod-metabox-display.php:6
+msgid "Wait for Moderator"
+msgstr "Attendre la personne modératrice"
+
+#: admin/class-bigbluebutton-register-custom-types.php:172
+#: admin/partials/bigbluebutton-recordable-metabox-display.php:6
+msgid "Recordable"
+msgstr "Enregistrable"
+
+#: admin/class-bigbluebutton-register-custom-types.php:55
+msgid "Room updated"
+msgstr "Salle mise à jour"
+
+#: admin/class-bigbluebutton-register-custom-types.php:54
+msgid "Room scheduled"
+msgstr "Salle planifiée"
+
+#: admin/class-bigbluebutton-register-custom-types.php:53
+msgid "Room reverted to draft"
+msgstr "Salle rétablie en brouillon"
+
+#: admin/class-bigbluebutton-register-custom-types.php:52
+msgid "Room published privately"
+msgstr "Salle publiée en privé"
+
+#: admin/class-bigbluebutton-register-custom-types.php:51
+msgid "Room published"
+msgstr "Salle publiée"
+
+#: admin/class-bigbluebutton-register-custom-types.php:50
+msgid "Rooms list"
+msgstr "Liste des salles"
+
+#: admin/class-bigbluebutton-register-custom-types.php:49
+msgid "Rooms list navigation"
+msgstr "Navigation de la liste des salles"
+
+#: admin/class-bigbluebutton-register-custom-types.php:48
+msgid "Filter rooms list"
+msgstr "Filtrer la liste des salles"
+
+#: admin/class-bigbluebutton-register-custom-types.php:47
+msgid "Uploaded to this room"
+msgstr "Téléversé vers cette salle"
+
+#: admin/class-bigbluebutton-register-custom-types.php:46
+msgid "Insert into room"
+msgstr "Insérer dans la salle"
+
+#: admin/class-bigbluebutton-register-custom-types.php:45
+msgid "Room Attributes"
+msgstr "Attributs de la salle"
+
+#: admin/class-bigbluebutton-register-custom-types.php:44
+msgid "Room Archives"
+msgstr "Archives de la salle"
+
+#: admin/class-bigbluebutton-register-custom-types.php:43
+msgid "All Rooms"
+msgstr "Toutes les salles"
+
+#: admin/class-bigbluebutton-register-custom-types.php:42
+msgid "No rooms found in trash"
+msgstr "Aucune salle trouvée dans la corbeille"
+
+#: admin/class-bigbluebutton-register-custom-types.php:41
+msgid "No rooms found"
+msgstr "Aucune salle trouvée"
+
+#: admin/class-bigbluebutton-register-custom-types.php:40
+msgid "Search Rooms"
+msgstr "Rechercher des salles"
+
+#: admin/class-bigbluebutton-register-custom-types.php:39
+msgid "View Rooms"
+msgstr "Voir les salles"
+
+#: admin/class-bigbluebutton-register-custom-types.php:38
+msgid "View Room"
+msgstr "Voir la salle"
+
+#: admin/class-bigbluebutton-register-custom-types.php:37
+msgid "New Room"
+msgstr "Nouvelle salle"
+
+#: admin/class-bigbluebutton-register-custom-types.php:36
+msgid "Edit Room"
+msgstr "Modifier la salle"
+
+#: admin/class-bigbluebutton-register-custom-types.php:35
+msgid "Add New Room"
+msgstr "Ajouter une salle"
+
+#: admin/class-bigbluebutton-admin.php:122
+#: admin/class-bigbluebutton-admin.php:123
+#: admin/class-bigbluebutton-register-custom-types.php:34
+msgid "Add New"
+msgstr "Ajouter"
+
+#: admin/class-bigbluebutton-admin.php:630
+msgid "BigBlueButton works best with the heartbeat API enabled. Please enable it."
+msgstr "BigBlueButton fonctionne mieux avec l’API Heartbeat activée. Veuillez l’activer."
+
+#: admin/class-bigbluebutton-admin.php:387
+#: admin/partials/bigbluebutton-shortcodes-display.php:178
+#: admin/js/bigbluebutton-admin.js:177
+msgid "Copy Shortcode"
+msgstr "Copier le code court"
+
+#: admin/class-bigbluebutton-register-custom-types.php:162
+#: admin/class-bigbluebutton-register-custom-types.php:212
+msgid "Viewer Access Code"
+msgstr "Code d’accès spectateur/spectatrice"
+
+#: admin/class-bigbluebutton-register-custom-types.php:161
+#: admin/class-bigbluebutton-register-custom-types.php:194
+msgid "Moderator Access Code"
+msgstr "Code d’accès modérateur/modératrice"
+
+#: admin/class-bigbluebutton-admin.php:152
+#: admin/class-bigbluebutton-admin.php:319
+msgid "Shortcode"
+msgstr "Code court"
+
+#: admin/class-bigbluebutton-admin.php:318
+msgid "Token"
+msgstr "Jeton"
+
+#: admin/class-bigbluebutton-register-custom-types.php:94
+msgid "Category"
+msgstr "Catégorie"
+
+#: admin/class-bigbluebutton-admin.php:143
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/class-bigbluebutton-admin.php:133
+#: admin/class-bigbluebutton-register-custom-types.php:93
+msgid "Categories"
+msgstr "Catégories"
+
+#: admin/class-bigbluebutton-admin.php:112
+#: admin/class-bigbluebutton-admin.php:113
+#: admin/class-bigbluebutton-register-custom-types.php:33
+#: public/class-bigbluebutton-public-widget.php:32
+msgid "BBB Rooms"
+msgstr "Salles BBB"
+
+#. Author URI of the plugin
+#: video-conferencing-with-bbb.php
+msgid "https://elearningevolve.com/"
+msgstr "https://elearningevolve.com/"
