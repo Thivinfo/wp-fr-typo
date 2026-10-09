@@ -1,0 +1,1153 @@
+# Translation of Plugins - Virtual Classroom &amp; Video Conferencing &#8211; BigBlueButton - Stable Readme (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Virtual Classroom &amp; Video Conferencing &#8211; BigBlueButton - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Virtual Classroom &amp; Video Conferencing &#8211; BigBlueButton - Stable Readme (latest release)\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "WordPress virtual classroom plugin. Free BigBlueButton live class plugin for remote teaching, distance learning, and online classes."
+msgstr "Extension WordPress de classe virtuelle. Extension gratuite BigBlueButton pour cours en direct, enseignement à distance et classes en ligne."
+
+#. Plugin name.
+#, gp-priority: high
+msgid "Virtual Classroom &amp; Video Conferencing - BigBlueButton"
+msgstr "Virtual Classroom &amp; Video Conferencing - BigBlueButton"
+
+#. Found in description paragraph.
+msgid "This free plugin includes test BigBlueButton credentials so you can try rooms after install. They are for testing only and are available \"AS IS\" without any warranty. The test server is publicly accessible, and sessions and recordings may be open to anyone. For production, use your own BBB server or create a Blindside Networks account and replace the Endpoint URL and Shared Secret."
+msgstr "Cette extension gratuite inclut des identifiants BigBlueButton de test afin que vous puissiez essayer des salles après l’installation. Ils sont destinés uniquement aux tests et sont fournis « EN L’ÉTAT » sans aucune garantie. Le serveur de test est accessible publiquement, et les sessions ainsi que les enregistrements peuvent être ouverts à tout le monde. Pour la production, utilisez votre propre serveur BBB ou créez un compte Blindside Networks et remplacez l’URL du point de terminaison et le secret partagé."
+
+#. Found in description list item.
+msgid "<a href=\"https://elearningevolve.com/products/wp-virtual-classroom/\">Virtual Classroom for WordPress (Pro)</a>"
+msgstr "<a href=\"https://elearningevolve.com/products/wp-virtual-classroom/\">Virtual Classroom for WordPress (Pro)</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://masterquiz.io/\">MasterQuiz AI</a>"
+msgstr "<a href=\"https://masterquiz.io/\">MasterQuiz AI</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/zoomy-automator-integration/\">Zoomy Automator Integration</a>"
+msgstr "<a href=\"https://wordpress.org/plugins/zoomy-automator-integration/\">Zoomy Automator Integration</a>"
+
+#. Found in faq paragraph.
+msgid "Yes. Setup is straightforward: activate the free base plugin, connect your BigBlueButton server credentials, and create your first room in minutes."
+msgstr "Oui. La configuration est simple : activez l’extension de base gratuite, connectez les identifiants de votre serveur BigBlueButton, et créez votre première salle en quelques minutes."
+
+#. Found in faq paragraph.
+msgid "Yes. WP Virtual Classroom works with LearnDash and allows you to embed a virtual classroom directly on a lesson or topic page, so learners can attend live classes without leaving their course."
+msgstr "Oui. WP Virtual Classroom fonctionne avec LearnDash et vous permet d’embarquer une classe virtuelle directement sur une page de leçon ou de sujet, afin que les personnes apprenantes puissent suivre les cours en direct sans quitter leur parcours."
+
+#. Found in faq paragraph.
+msgid "Yes. WP Virtual Classroom can be used with WordPress LMS plugins to provide live virtual classroom functionality within your courses."
+msgstr "Oui. WP Virtual Classroom peut être utilisé avec les extensions LMS WordPress pour offrir une classe virtuelle en direct au sein de vos formations."
+
+#. Found in faq paragraph.
+msgid "Yes. The Pro plugin lets you set a scheduled start time for a virtual class. Students see a countdown screen and are automatically redirected into the room when the class begins."
+msgstr "Oui. L’extension Pro vous permet de définir une heure de début planifiée pour une classe virtuelle. Les personnes étudiantes voient un écran de compte à rebours et sont automatiquement redirigées vers la salle lorsque le cours commence."
+
+#. Found in faq paragraph.
+msgid "Yes. WP Virtual Classroom supports screen sharing, HD video and audio, public and private chat, whiteboard annotation, breakout rooms, polling, and more."
+msgstr "Oui. WP Virtual Classroom prend en charge le partage d’écran, la vidéo et l’audio HD, la discussion publique et privée, l’annotation sur tableau blanc, les salles de sous-groupe, les sondages, et plus encore."
+
+#. Found in faq paragraph.
+msgid "Yes. Instructors can manage rooms from the WordPress dashboard, while students can join the live class directly from a course, lesson, or topic page."
+msgstr "Oui. Le corps enseignant peut gérer les salles depuis le tableau de bord WordPress, tandis que les personnes étudiantes peuvent rejoindre le cours en direct depuis une page de formation, de leçon ou de sujet."
+
+#. Found in faq paragraph.
+msgid "Absolutely. Teachers can host live, interactive sessions with HD video, while students join directly from your site without requiring a separate app or download."
+msgstr "Absolument. Le corps enseignant peut animer des sessions interactives en direct avec vidéo HD, tandis que les personnes étudiantes rejoignent directement depuis votre site, sans application séparée ni téléchargement."
+
+#. Found in faq paragraph.
+msgid "Our plugin does not set or restrict the number of students who can join a room. The participant limit depends entirely on your BigBlueButton (BBB) hosting server resources and configuration. Even with the free version of the plugin, room capacity is determined by your server's hosting limits, not the plugin itself."
+msgstr "Notre extension ne définit ni ne limite le nombre de personnes étudiantes pouvant rejoindre une salle. La limite de participation dépend entièrement des ressources et de la configuration de votre serveur d’hébergement BigBlueButton (BBB). Même avec la version gratuite de l’extension, la capacité de la salle est déterminée par les limites d’hébergement de votre serveur, et non par l’extension elle-même."
+
+#. Found in faq paragraph.
+msgid "Yes. It installs like any standard WordPress plugin and runs on any self-hosted WordPress site, integrating directly with your existing pages, posts, and courses."
+msgstr "Oui. Elle s’installe comme toute extension WordPress standard et fonctionne sur tout site WordPress auto-hébergé, en s’intégrant directement à vos pages, publications et formations existantes."
+
+#. Found in faq paragraph.
+msgid "WP Virtual Classroom is a WordPress plugin that turns your site into a live virtual classroom using BigBlueButton, an open-source video conferencing tool built specifically for teaching."
+msgstr "WP Virtual Classroom est une extension WordPress qui transforme votre site en classe virtuelle en direct grâce à BigBlueButton, un outil de visioconférence open source conçu spécifiquement pour l’enseignement."
+
+#. Found in faq header.
+msgid "Is WP Virtual Classroom easy to set up?"
+msgstr "WP Virtual Classroom est-il facile à configurer ?"
+
+#. Found in faq header.
+msgid "Can I use it with LearnDash?"
+msgstr "Puis-je l’utiliser avec LearnDash ?"
+
+#. Found in faq header.
+msgid "Is WP Virtual Classroom compatible with LMS plugins?"
+msgstr "WP Virtual Classroom est-il compatible avec les extensions LMS ?"
+
+#. Found in faq header.
+msgid "Can I schedule virtual classes?"
+msgstr "Puis-je planifier des classes virtuelles ?"
+
+#. Found in faq header.
+msgid "Does it support screen sharing and video conferencing?"
+msgstr "Prend-il en charge le partage d’écran et la visioconférence ?"
+
+#. Found in faq header.
+msgid "Can teachers and students join a virtual classroom?"
+msgstr "Le corps enseignant et les personnes étudiantes peuvent-ils rejoindre une classe virtuelle ?"
+
+#. Found in faq header.
+msgid "Does WP Virtual Classroom support live online classes?"
+msgstr "WP Virtual Classroom prend-il en charge les cours en ligne en direct ?"
+
+#. Found in faq header.
+msgid "How many students or participants can join a single BigBlueButton room using this plugin?"
+msgstr "Combien de personnes étudiantes ou participantes peuvent rejoindre une seule salle BigBlueButton avec cette extension ?"
+
+#. Found in faq header.
+msgid "Can I use WP Virtual Classroom with WordPress?"
+msgstr "Puis-je utiliser WP Virtual Classroom avec WordPress ?"
+
+#. Found in faq header.
+msgid "What is WP Virtual Classroom?"
+msgstr "Qu’est-ce que WP Virtual Classroom ?"
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/evolve-learndash-to-lifter/\">Evolve's Learndash To Lifter</a>"
+msgstr "<a href=\"https://wordpress.org/plugins/evolve-learndash-to-lifter/\">Evolve's Learndash To Lifter</a>"
+
+#. Found in description paragraph.
+msgid "For further queries <a href=\"https://elearningevolve.com/contact/\">contact us</a> or email info@elearningevolve.com"
+msgstr "Pour toute autre question, <a href=\"https://elearningevolve.com/contact/\">contactez-nous</a> ou écrivez à info@elearningevolve.com"
+
+#. Found in description paragraph.
+msgid "<a href=\"https://youtu.be/xb5wR-VcrXs\">Watch the setup video</a>"
+msgstr "<a href=\"https://youtu.be/xb5wR-VcrXs\">Regarder la vidéo de configuration</a>"
+
+#. Found in description paragraph.
+msgid "BBB stands as an open-source video conferencing solution crafted with the motto <strong>\"Built For Teachers\"</strong>. It includes collaboration tools for virtual classroom engagement. <a href=\"https://support.blindsidenetworks.com/hc/en-us/articles/360052738972-What-are-the-features-in-BigBlueButton-\">Explore all BBB features</a>"
+msgstr "BBB est une solution de visioconférence open source conçue avec la devise <strong>« Built For Teachers »</strong>. Elle inclut des outils de collaboration pour l’engagement en classe virtuelle. <a href=\"https://support.blindsidenetworks.com/hc/en-us/articles/360052738972-What-are-the-features-in-BigBlueButton-\">Découvrir toutes les fonctionnalités BBB</a>"
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Dedicated Support</strong>\n"
+"For quick support and assistance, please <a href=\"https://elearningevolve.com/contact/\">contact us</a>"
+msgstr ""
+"<strong>Support dédié</strong>\n"
+"Pour un support et une assistance rapides, veuillez <a href=\"https://elearningevolve.com/contact/\">nous contacter</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://elearningevolve.com/blog/how-to-allow-instructors-to-manage-bbb-rooms-on-wp/\">How to let instructors manage BBB rooms</a>"
+msgstr "<a href=\"https://elearningevolve.com/blog/how-to-allow-instructors-to-manage-bbb-rooms-on-wp/\">Comment autoriser le corps enseignant à gérer les salles BBB</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://elearningevolve.com/blog/hosting-virtual-classroom-for-wordpress/\">How to set up hosting and get Endpoint URL/Secret</a>"
+msgstr "<a href=\"https://elearningevolve.com/blog/hosting-virtual-classroom-for-wordpress/\">Comment configurer l’hébergement et obtenir l’URL du point de terminaison/le secret</a>"
+
+#. Found in description list item.
+msgid "<strong>LearnDash &amp; LMS Sites</strong> - WordPress LMS virtual classroom integration for course pages."
+msgstr "<strong>LearnDash &amp; sites LMS</strong> - Intégration de classe virtuelle LMS WordPress pour les pages de formation."
+
+#. Found in description list item.
+msgid "<strong>Schools &amp; Colleges</strong> - Add live classes as a free distance learning plugin WordPress option."
+msgstr "<strong>Écoles &amp; établissements</strong> - Ajoutez des cours en direct comme option d’extension WordPress gratuite d’enseignement à distance."
+
+#. Found in description paragraph.
+msgid "<strong>WordPress Integration</strong>"
+msgstr "<strong>Intégration WordPress</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Teaching &amp; Collaboration Tools (via BigBlueButton)</strong>"
+msgstr "<strong>Outils d’enseignement &amp; de collaboration (via BigBlueButton)</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Live Virtual Classroom</strong>"
+msgstr "<strong>Classe virtuelle en direct</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>About BigBlueButton</strong>"
+msgstr "<strong>À propos de BigBlueButton</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Who Is It For?</strong>"
+msgstr "<strong>À qui s’adresse-t-elle ?</strong>"
+
+#. Found in description paragraph.
+msgid "Built for UK educators, training providers, and institutions, this plugin is one of the leading remote teaching tools WordPress offers for live video classes, screen sharing, whiteboards, breakout rooms, and session recordings."
+msgstr "Conçue pour les équipes éducatives, organismes de formation et institutions du Royaume-Uni, cette extension est l’un des principaux outils d’enseignement à distance que WordPress propose pour les cours vidéo en direct, le partage d’écran, les tableaux blancs, les salles de sous-groupe et les enregistrements de session."
+
+#. Found in description paragraph.
+msgid "This live class plugin for WordPress uses BigBlueButton for virtual classroom integration WordPress sites need. Create rooms from your dashboard, embed join forms with a shortcode, and let students attend live classes without leaving your website. It works as a WordPress LMS virtual classroom add-on with LearnDash and as a standalone free distance learning plugin WordPress schools and trainers can deploy quickly."
+msgstr "Cette extension de cours en direct pour WordPress utilise BigBlueButton pour l’intégration de classe virtuelle dont les sites WordPress ont besoin. Créez des salles depuis votre tableau de bord, embarquez des formulaires de participation avec un code court, et laissez les personnes étudiantes suivre les cours en direct sans quitter votre site. Elle fonctionne comme module de classe virtuelle LMS WordPress avec LearnDash, et comme extension gratuite autonome d’enseignement à distance que les écoles et formateurs peuvent déployer rapidement."
+
+#. Found in description paragraph.
+msgid "Looking for the best e-learning plugin for WordPress to run live lessons from your own site? Virtual Classroom for WordPress is a WordPress virtual classroom plugin that delivers free virtual classroom software WordPress educators can use as a complete WordPress online teaching platform."
+msgstr "Vous cherchez la meilleure extension e-learning pour WordPress afin d’animer des leçons en direct depuis votre propre site ? Virtual Classroom for WordPress est une extension WordPress de classe virtuelle qui offre un logiciel de classe virtuelle gratuit dont les équipes éducatives WordPress peuvent se servir comme plateforme complète d’enseignement en ligne WordPress."
+
+#. Found in description paragraph.
+msgid "<strong>Virtual Classroom for WordPress - Free Live Class Plugin</strong>"
+msgstr "<strong>Virtual Classroom for WordPress - Extension gratuite de cours en direct</strong>"
+
+#. Found in description list item.
+msgid "Audio, video, screen sharing, public/private chat, whiteboard, multi-user whiteboard, breakout rooms, shared notes, raise hand, emojis, polling, slide uploads, and external video sharing."
+msgstr "Audio, vidéo, partage d’écran, discussion publique/privée, tableau blanc, tableau blanc multi-utilisateurs, salles de sous-groupe, notes partagées, lever la main, emojis, sondages, téléversement de diapositives et partage de vidéos externes."
+
+#. Found in description list item.
+msgid "<strong>Mobile-Friendly HTML5</strong> - Runs on desktop, laptop, and mobile (iOS 12.2+ and Android 6.0+)."
+msgstr "<strong>HTML5 adapté au mobile</strong> - Fonctionne sur ordinateur de bureau, portable et mobile (iOS 12.2+ et Android 6.0+)."
+
+#. Found in description list item.
+msgid "<strong>Multiple Rooms</strong> - Add multiple room tokens in one shortcode so users can choose which room to join."
+msgstr "<strong>Salles multiples</strong> - Ajoutez plusieurs jetons de salle dans un même code court afin que les personnes puissent choisir la salle à rejoindre."
+
+#. Found in description list item.
+msgid "<strong>Session Recordings</strong> - Display past class recordings so students can review keynotes later."
+msgstr "<strong>Enregistrements de session</strong> - Affichez les enregistrements des cours passés afin que les personnes étudiantes puissent revoir les points clés plus tard."
+
+#. Found in description list item.
+msgid "<strong>Live Class Plugin for WordPress</strong> - Students join live video sessions via a shortcode on any page."
+msgstr "<strong>Extension de cours en direct pour WordPress</strong> - Les personnes étudiantes rejoignent les sessions vidéo en direct via un code court sur n’importe quelle page."
+
+#. Found in description list item.
+msgid "<strong>Virtual Classroom Integration WordPress</strong> - Manage BBB rooms, join forms, and recordings from your WP dashboard."
+msgstr "<strong>Intégration de classe virtuelle WordPress</strong> - Gérez les salles BBB, les formulaires de participation et les enregistrements depuis votre tableau de bord WP."
+
+#. Found in description list item.
+msgid "Students click Join to enter the live virtual classroom. Recordings can display after the session ends."
+msgstr "Les personnes étudiantes cliquent sur Rejoindre pour entrer dans la classe virtuelle en direct. Les enregistrements peuvent s’afficher après la fin de la session."
+
+#. Found in description list item.
+msgid "Add the <code>[bigbluebutton]</code> shortcode to any page or post."
+msgstr "Ajoutez le code court <code>[bigbluebutton]</code> à n’importe quelle page ou publication."
+
+#. Found in description list item.
+msgid "Create BBB rooms from the WordPress dashboard under BBB Rooms."
+msgstr "Créez des salles BBB depuis le tableau de bord WordPress, sous Salles BBB."
+
+#. Found in description list item.
+msgid "Install the plugin and connect your BigBlueButton server (hosting guide linked below)."
+msgstr "Installez l’extension et connectez votre serveur BigBlueButton (guide d’hébergement lié ci-dessous)."
+
+#. Found in description list item.
+msgid "<strong>Training Providers</strong> - Deliver sessions through a WordPress online teaching platform you control."
+msgstr "<strong>Organismes de formation</strong> - Animez des sessions via une plateforme d’enseignement en ligne WordPress que vous contrôlez."
+
+#. Found in description list item.
+msgid "<strong>Teachers &amp; Coaches</strong> - Run 1:1 or group sessions with a live class plugin for WordPress."
+msgstr "<strong>Corps enseignant &amp; coachs</strong> - Organisez des sessions en tête-à-tête ou en groupe avec une extension de cours en direct pour WordPress."
+
+#. Found in description header.
+msgid "Key Features"
+msgstr "Fonctionnalités clés"
+
+#. Found in description header.
+msgid "How It Works"
+msgstr "Fonctionnement"
+
+#. Screenshot description.
+msgid "BBB Rooms organised by categories for schools and training providers."
+msgstr "Salles BBB organisées par catégories pour les écoles et les organismes de formation."
+
+#. Screenshot description.
+msgid "BBB Rooms managed through the WordPress administrator dashboard."
+msgstr "Salles BBB gérées via le tableau de bord d’administration WordPress."
+
+#. Screenshot description.
+msgid "BigBlueButton server settings for WordPress online teaching platform setup."
+msgstr "Réglages du serveur BigBlueButton pour la configuration d’une plateforme d’enseignement en ligne WordPress."
+
+#. Screenshot description.
+msgid "Multiple BBB rooms accessible from a single WordPress page."
+msgstr "Plusieurs salles BBB accessibles depuis une seule page WordPress."
+
+#. Screenshot description.
+msgid "Virtual classroom integration WordPress shortcode embed on posts and pages."
+msgstr "Intégration de classe virtuelle WordPress : embarquement du code court sur les publications et les pages."
+
+#. Screenshot description.
+msgid "BBB Rooms content type with dedicated room pages in WordPress."
+msgstr "Type de contenu Salles BBB avec pages de salle dédiées dans WordPress."
+
+#. Screenshot description.
+msgid "BigBlueButton live class meeting room inside a virtual classroom session."
+msgstr "Salle de réunion BigBlueButton pour cours en direct au sein d’une session de classe virtuelle."
+
+#. Screenshot description.
+msgid "WordPress virtual classroom plugin features: audio, video, screen sharing, whiteboard, breakout rooms, and mobile-friendly HTML5 interface."
+msgstr "Fonctionnalités de l’extension WordPress de classe virtuelle : audio, vidéo, partage d’écran, tableau blanc, salles de sous-groupe et interface HTML5 adaptée au mobile."
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/add-from-server-reloaded/\">Add From Server Reloaded</a>"
+msgstr "<a href=\"https://wordpress.org/plugins/add-from-server-reloaded/\">Add From Server Reloaded</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/topbar-buddy/\">Topbar Buddy</a>"
+msgstr "<a href=\"https://wordpress.org/plugins/topbar-buddy/\">Topbar Buddy</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/updateguard/\">UpdateGuard</a>"
+msgstr "<a href=\"https://wordpress.org/plugins/updateguard/\">UpdateGuard</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/simple-email-scheduler/\">Simple Email Scheduler</a>"
+msgstr "<a href=\"https://wordpress.org/plugins/simple-email-scheduler/\">Simple Email Scheduler</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://elearningevolve.com/products/learndash-student-voice/\">LearnDash Student Voice</a>"
+msgstr "<a href=\"https://elearningevolve.com/products/learndash-student-voice/\">LearnDash Student Voice</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://wpzoomy.com/\">WPZoomy</a>"
+msgstr "<a href=\"https://wpzoomy.com/\">WPZoomy</a>"
+
+#. Found in description header.
+msgid "Our Other Plugins"
+msgstr "Nos autres extensions"
+
+#. Found in description header.
+msgid "REQUIRED: Separate BigBlueButton Server"
+msgstr "OBLIGATOIRE : serveur BigBlueButton distinct"
+
+#. Found in description list item.
+msgid "Join room on the same page is not available. Only join in a new full screen window is supported"
+msgstr "Rejoindre la salle sur la même page n’est pas disponible. Seule l’ouverture dans une nouvelle fenêtre en plein écran est prise en charge"
+
+#. Found in description header.
+msgid "Free Plugin Limitations"
+msgstr "Limitations de l’extension gratuite"
+
+#. Found in description paragraph.
+msgid "<a href=\"https://elearningevolve.com/products/wp-virtual-classroom/\">Get Pro Version</a>"
+msgstr "<a href=\"https://elearningevolve.com/products/wp-virtual-classroom/\">Obtenir la version Pro</a>"
+
+#. Found in description paragraph.
+msgid "BBB software requires a separate hosting server that should be connected to our plugin. Please refer to our <a href=\"https://elearningevolve.com/blog/hosting-virtual-classroom-for-wordpress/\">hosting guide</a> for setup."
+msgstr "Le logiciel BBB nécessite un serveur d’hébergement distinct qui doit être connecté à notre extension. Veuillez consulter notre <a href=\"https://elearningevolve.com/blog/hosting-virtual-classroom-for-wordpress/\">guide d’hébergement</a> pour la configuration."
+
+#. Found in description list item.
+msgid "<a href=\"https://elearningevolve.com/blog/how-to-limit-number-of-users-for-bigbluebutton-room-on-wordpress/\">How to limit users for a BigBlueButton room</a>"
+msgstr "<a href=\"https://elearningevolve.com/blog/how-to-limit-number-of-users-for-bigbluebutton-room-on-wordpress/\">Comment limiter les personnes pour une salle BigBlueButton</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://elearningevolve.com/blog/how-to-join-bigbluebutton-room-from-wordpress/\">How to join a BigBlueButton room from WordPress</a>"
+msgstr "<a href=\"https://elearningevolve.com/blog/how-to-join-bigbluebutton-room-from-wordpress/\">Comment rejoindre une salle BigBlueButton depuis WordPress</a>"
+
+#. Found in description header.
+msgid "How-Tos"
+msgstr "Guides pratiques"
+
+#. Found in description header.
+msgid "Video Guide"
+msgstr "Guide vidéo"
+
+#. Found in description paragraph.
+msgid ""
+"There is also a Pro version available with this plugin that offers the below features:\n"
+"* Moderators frontend Room management area\n"
+"* Embed BigBlueButton Room on WordPress i.e join room on the same WP page\n"
+"* Set a Countdown/Schedule for Room\n"
+"* Fully White-label Virtual Classroom\n"
+"* Limit the max allowed participants for a room e.g (5, 10, .. etc) both on a per room and per page basis. This can allow you to conduct a 1:1 or group session\n"
+"* Upload your brand logo that is visible in the BBB room\n"
+"* Customize the room background-color as per your brand color\n"
+"* Change welcome message that is displayed in the Public Chat section of the room\n"
+"* Customize thank you message when the user leaves the meeting\n"
+"* Pre-upload your presentation (ability to upload both globally and per room basis)"
+msgstr ""
+"Une version Pro est également disponible avec cette extension et propose les fonctionnalités suivantes :\n"
+"* Espace de gestion des salles sur l’interface publique pour la modération\n"
+"* Embarquer une salle BigBlueButton sur WordPress, c.-à-d. rejoindre la salle sur la même page WP\n"
+"* Définir un compte à rebours/une planification pour la salle\n"
+"* Classe virtuelle entièrement en marque blanche\n"
+"* Limiter le nombre max. de personnes participantes pour une salle, p. ex. (5, 10, etc.), à la fois par salle et par page. Cela vous permet d’organiser une session en tête-à-tête ou en groupe\n"
+"* Téléverser le logo de votre marque, visible dans la salle BBB\n"
+"* Personnaliser la couleur d’arrière-plan de la salle selon la couleur de votre marque\n"
+"* Modifier le message d’accueil affiché dans la section Discussion publique de la salle\n"
+"* Personnaliser le message de remerciement lorsque la personne quitte la réunion\n"
+"* Pré-téléverser votre présentation (possibilité de téléverser à la fois globalement et par salle)"
+
+#. Found in description header.
+msgid "Pro Version Features"
+msgstr "Fonctionnalités de la version Pro"
+
+#. Found in description paragraph.
+msgid "After the session is over the plugin can also display the recording of the session on the same page so that the students can take the keynotes from the session later on."
+msgstr "Une fois la session terminée, l’extension peut aussi afficher l’enregistrement de la session sur la même page afin que les personnes étudiantes puissent en reprendre les points clés plus tard."
+
+#. Found in description paragraph.
+msgid "The student can simply click Join from the page where the shortcode is added and enter the BBB room where the teacher can initiate a virtual classroom session."
+msgstr "La personne étudiante peut simplement cliquer sur Rejoindre depuis la page où le code court est ajouté et entrer dans la salle BBB où le corps enseignant peut démarrer une session de classe virtuelle."
+
+#. Found in description paragraph.
+msgid "Virtual Classroom for WordPress enables the user to create BBB rooms right from the WordPress dashboard. Once the room is created it can be added to any WordPress page through a simple shortcode. There is also a possibility to enter multiple rooms in the shortcode to let the user choose the room that they want to join."
+msgstr "Virtual Classroom for WordPress permet de créer des salles BBB directement depuis le tableau de bord WordPress. Une fois la salle créée, elle peut être ajoutée à n’importe quelle page WordPress via un simple code court. Il est aussi possible d’indiquer plusieurs salles dans le code court afin de laisser choisir la salle à rejoindre."
+
+#. Found in installation paragraph.
+msgid "Here's an overview of the installation."
+msgstr "Voici un aperçu de l’installation."
+
+#. Found in installation list item.
+msgid "You are ready to begin creating meetings and holding conferences."
+msgstr "Vous pouvez commencer à créer des réunions et à organiser des conférences."
+
+#. Found in installation list item.
+msgid "Enter the token you copied earlier into the widget and save it."
+msgstr "Saisissez dans le widget le jeton que vous avez copié précédemment, puis enregistrez-le."
+
+#. Found in installation list item.
+msgid "Find the BBB Rooms Widget. Then click and drag it to either the right, content or footer windows on the right of the screen depending on where you wish the BBB Rooms widget to appear."
+msgstr "Trouvez le widget Salles BBB. Cliquez ensuite et faites-le glisser vers les zones droite, contenu ou pied de page situées à droite de l’écran, selon l’emplacement où vous souhaitez que le widget Salles BBB apparaisse."
+
+#. Found in installation list item.
+msgid "Click on widgets under the Appearance menu."
+msgstr "Cliquez sur Widgets sous le menu Apparence."
+
+#. Found in installation list item.
+msgid "Click on BBB Rooms in the sidebar again and copy the token of your new room."
+msgstr "Cliquez de nouveau sur Salles BBB dans le menu, puis copiez le jeton de votre nouvelle salle."
+
+#. Found in installation list item.
+msgid "Add a new room and publish it."
+msgstr "Ajoutez une nouvelle salle et publiez-la."
+
+#. Found in installation list item.
+msgid "Click on BBB Rooms in the sidebar."
+msgstr "Cliquez sur Salles BBB dans le menu."
+
+#. Found in installation list item.
+msgid "Fill out the URL of where the BigBlueButton server is running (be sure to add /bigbluebutton/ to the end of the URL) and it's salt. Then click on Save."
+msgstr "Renseignez l’URL où le serveur BigBlueButton est en cours d’exécution (veillez à ajouter /bigbluebutton/ à la fin de l’URL) ainsi que son sel. Cliquez ensuite sur Enregistrer."
+
+#. Found in installation list item.
+msgid "Click on BBB Rooms in the sidebar and click on Server Settings."
+msgstr "Cliquez sur Salles BBB dans le menu, puis sur Réglages du serveur."
+
+#. Found in installation list item.
+msgid "Activate the Plugin."
+msgstr "Activez l’extension."
+
+#. Found in installation list item.
+msgid "When you find the plugin called Video Conferencing with BBB by eLearning evolve click the install now link."
+msgstr "Lorsque vous trouvez l’extension appelée Video Conferencing with BBB par eLearning evolve, cliquez sur le lien Installer maintenant."
+
+#. Found in installation list item.
+msgid "In the search bar enter \"Video Conferencing with BBB\" and click search plugins."
+msgstr "Dans la barre de recherche, saisissez « Video Conferencing with BBB » et cliquez sur Rechercher des extensions."
+
+#. Found in installation list item.
+msgid "Click Add new."
+msgstr "Cliquez sur Ajouter."
+
+#. Found in installation list item.
+msgid "Log in as an admin and click on the Plugins menu on the sidebar."
+msgstr "Connectez-vous en tant que personne administrant le site et cliquez sur le menu Extensions dans le menu latéral."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Recordings shortcodes in Fluent Community lessons use a self-contained list so layout no longer depends on plugin CSS that is not loaded there."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: BigBlueButton shortcodes now work in Fluent Community course lessons (portal REST renders a room join link instead of being blocked)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Settings notice now explains testing defaults and how to use a Blindside Networks account for production credentials."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Sites still using the retired Blindside Networks public test server are migrated to the new test credentials on upgrade. Custom BBB servers are not changed."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Default test Endpoint URL and Shared Secret for first-time setups."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Removed the free-version 2-room create quota so any number of BBB rooms can be added, in line with WordPress.org plugin guidelines."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Plugin Check issues for escaping, i18n string literals, translators comments, nonce/sanitization, and direct file access on template files."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Empty recordings message no longer appears above the recordings table when recordings exist."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Blindside test-server migration no longer overwrites credentials the admin intentionally saved after the first upgrade."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Settings hosting guidance now links Blindside Networks registration and bigbluebutton.host for production plans."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Sites still using the exact retired BiggerBlueButton adeel default credentials are migrated once to the new test defaults. Custom BBB servers are not changed."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Default test Endpoint URL and Shared Secret now use the Blindside Networks evolve test instance."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Removed the Category column from the All Rooms list table."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: All Rooms list labels — Invite URL, Moderator Code, and Viewer Code."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: All Rooms Start Time column shows a branded PRO tag when Pro is inactive, linking to the Pro Version Features page."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Shared light-blue star PRO tag on All Rooms and Shortcodes (replaces “Available In Pro Version” text)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Shortcodes page PRO tag no longer stretches full card width."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Plugin Check nonce warnings on admin category filter and public join username (documented read-only GET usage; no behavior change)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Migration SQL uses escaped table-name concatenation (WordPress identifiers cannot use prepare placeholders)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Bootstrap globals and functions now use the vcbbb_ prefix (WordPress PrefixAllGlobals / Plugin Check)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Plugin Check nonce warnings on public room/guest request reads (documented read-only usage; no behavior change)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Token room lookup uses a single meta_key/meta_value query instead of meta_query (Plugin Check SlowDBQuery)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Frontend CSS/JS load only on BBB room pages, shortcode pages, or when the BBB widget is active (Plugin Check EnqueuedStylesScope)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: BBB room CPT create_posts capability maps to add_bbb_rooms (fixes frontend/moderator room create when create was blocked as do_not_allow)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: If a participant closes the browser tab and opens the same room link again, they are now asked for their name and access code again instead of being taken straight to the recordings or live meeting."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improved: Participants using a shared room link now follow a simple two-step process: first sign in to view recordings, then click Join again to enter the live meeting."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improved: After a participant enters a valid name and access code, the room recordings are now displayed on the page so they can review past sessions before joining live."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: When an admin shares a room link with a participant, recorded meetings are no longer shown as soon as the page opens. The participant must enter their name and access code first."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Security: Fixed unauthorized access to room join UI and recordings on BBB room permalink pages. Auto-injected content now requires proper access checks and is opt-in only."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Concise FAQ answers, proper markdown links instead of raw URLs, and cleaner formatting."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Readme optimised with UK SEO keywords for WordPress virtual classroom, live class, e-learning, distance learning, and remote teaching searches."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Major Upgrade: Pro plugin is 6.0.0 is a must to work with the Free plugin 3.0.0 major upgrade"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Admin menu placement (“BBB Rooms”) to match WordPress admin hierarchy better."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: WordPress conflict handling so the plugin no longer automatically deactivates other plugins (user must control activation)."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Translation support by using the correct plugin text domain, so the right text displays properly even if translations aren’t loaded."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: The BBB Rooms sidebar widget now shows only the join form as well, without automatically adding recordings under it."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Pages that use the meeting shortcode (to let people join a room) now show only the join/start meeting area again. A list of recordings will no longer appear under that shortcode by default, so the page stays simple for your visitors."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Breaking Changes: Significant refactoring of plugin codebase for WordPress.org compliance"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Major Upgrade: Updated all variable names to comply with WordPress.org plugin standards"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Major Upgrade: Updated all class names to comply with WordPress.org plugin standards"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Major Upgrade: Updated all function names to comply with WordPress.org plugin standards"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "⚠️Important Notice: Please test on staging site before updating on a live site due to major changes to the plugin codebase."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Our Recommended BBB hosting providers blog in plugin settings."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Replaced the older test server credentials of Blindside Networks by Bigbluebutton.host test server in plugin settings."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Our Pro version release notice on the plugin settings page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "[Action needed] Please deactivate and activate the plugin to apply this fix"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: The page can't be found error when viewing a BBB room"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "[Action needed] Please deactivate and activate the plugin to apply the above fixes"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Permissions are not assigned on plugin activate"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: New tutorial in plugin settings page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Compatibility with v2.4.2 of the BigBlueButton Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Compatibility with v2.4.3 of the BigBlueButton Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Hosting guide details on the plugin settings page."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: BBBHost.Cloud test instance start button on settings page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Regenerated .pot/.po translation files; compatibility tested with WordPress 6.9.1"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Translation strings now use actual default messages instead of placeholder keys so the correct text displays when translation files are missing or not loaded (Room Settings: server notice, success/error messages)"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Multiple recording buttons in the recording view"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Fatal error in previous v2.5.0 update"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Allow LearnDash Instructors and Group Leaders to embed room shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Shortcode does not display in the admin rooms list"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Access code not updates are not applied for the room"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Character limit message for meeting access code on the meeting edit page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Translation support for a few text snippets in the plugin that were not translation friendly"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Compatibility: Tested with WordPress v6.5.3"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Improved UI and button styling"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Addressed CSS conflict with Tooltips Pro plugin that prevented the shortcode from displaying on the All Rooms list page."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: plugin shortcodes not working with Woffice WordPress theme"
+msgstr ""
+
+#. Found in changelog paragraph.
+#, gp-priority: low
+msgid ""
+"This plugin is a fork of the BigBlueButton plugin initially released by Blindside Networks but no longer maintained.\n"
+"* Improvement: Security enhancement on room join page.\n"
+"* Improvement: Tested with WP version 5.8.2.\n"
+"* Improvement: Ability to copy the shortcode from the BBB Rooms listing page.\n"
+"* Improvement: Use HTTPS version for the test bigbluebutton endpoint"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Performance updates and speed optimization"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Support for adding custom button text with Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: BBB hosting details on settings page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Tested: Compatibility with WP v6.4.3"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: BBB shortcode column displays on admin screens other than BBB room list"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Sort recordings in descending order by date in BBB room recordings list display"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Improve UI styling for recording table view on room page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: 400 error on recording view due to incorrect recording URL"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Improve layout for Recording list on room join page for mobile view"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Added checks to prevent PHP warning &amp; minor bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Removed: Subscribe page from plugin menus"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Quick subscribe option from plugin settings page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Improved reporting messages in the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Plugin hosting notice on settings page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Ability to add Endpoint URL not having /bigbluebutton in the URL"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Support for adding multiple BBB room recordings on a single page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Support for adding multiple BBB room join forms on a single page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Support for adding multiple BBB rooms on a single page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Start/Join Here button opening in a new tab change it to open in the same window"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Join button UI issue on some browsers"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Ability to open BBB room in browser when Joining Fullscreen from BuddyBoss mobile App"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Use the testing Blindside Networks BigBlueButton server when using free plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Recording delete not working from BBB room page when pro plugin not enabled"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Require username input when user is not logged in to prevent join error"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Wait for Moderator option not working on some BBB hosts"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Compatibility with BBB Pro v2.4.0"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Remove admin permissions incorrectly set for other user roles in v1.2.1 update"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Allow all logged-in users to access the BBB room without the need to enter the Access Code"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Confirmation check before deleting recording"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Share recording option for admins and moderators on bbb room page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: New shortcodes added in Settings -&gt; Shortcode Guide section"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Error when moderator and viewer access codes are same while saving room"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Performance improvement with code optimization"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Update capability permissions on each plugin update to prevent the need for activate/deactivate plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: New capability add_bbb_rooms to allow Add New rooms access to admins and users with this new capability"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: New capability can_limit_user_in_bbb_rooms the room limit option will show only to admins and users with this new capability"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Remove custom fields from BBB Rooms -&gt; Add New"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Access code error message does not display when codes updated while meeting is running"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Compatibility for Room level limit feature addition in Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: BBB multiple room select shortcode layout to align with the join form"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Restrict settings page access only to Admin level users"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Shortcode guide section on settings page for all available plugin shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Tutorials section on plugin settings page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Error Call to undefined function get_current_screen()"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Admin view of All Rooms page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Help text on BBB Rooms -&gt; All Rooms page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Ability to filter rooms by category from BBB Rooms -&gt; All Rooms"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Ability to start meeting from BBB Rooms -&gt; All Rooms"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Automatically create a default Home Room under BBB Rooms -&gt; All Rooms admin page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: BBB Room create/edit permissions granted to non-admin user roles"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Removed restriction for preview of unpublished rooms"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: updated FAQ section and added new answers"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Shortcode usage guide on the plugin settings page"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Compatibility for the ability to customize background color for the room in Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Compatibility for pre upload presentation (global and per room basis) in Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Compatibility for per shortcode max participant room limit in Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: You did not pass the checksum security check error on room join with BBB On Demand Server"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: compatibility for the max room participant limit feature added in Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Super admin can not login WP multisite after activating the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: compatibility for the room start time &amp; countdown feature added in Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added: Use capability \"publish_bbb_rooms\" for admin BBB Rooms menu access by any user role."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Removed the need to assign activate_plugins user permission for admin BBB Rooms menu."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated: Minor style changes, room join form center aligned with the page."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: Blindside Networks test server not working anymore, not able to join rooms."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Compatibility: Tested with WP version 5.9.1."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improvement: Make error messages &amp; recording page button text more user-friendly."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: EndPoint URL &amp; Shared Secret/Salt settings not saved and shows error sometimes."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improvement: Security enhancement on recordings section."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improvement: Added new hooks in plugin."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Tested: compatibility with WordPress v5.8.3."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improvement: Readability of plugin conflict messages."
+msgstr ""
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fixed: plugin warning messages on WP dashboard."
+msgstr ""
