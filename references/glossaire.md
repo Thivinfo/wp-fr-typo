@@ -1,7 +1,7 @@
 # Glossaire officiel WordPress fr_FR
 
 > Source : export officiel de https://translate.wordpress.org/locale/fr/default/glossary/
-> **607 termes** — Dernière mise à jour : **11/09/2026**.
+> **609 termes** — Dernière mise à jour : **02/11/2026**.
 > Maintenu par l'équipe Polyglots WordPress Francophone.
 
 ## Règles d'usage
@@ -513,6 +513,7 @@
 | `rate` | taux | noun | e-commerce |
 | `rate` | évaluation | noun |  |
 | `rating` | Évaluation | noun |  |
+| `readable` | accessible en lecture | adjective | dans le contexte des droits accordés sur les fichiers et dossiers |
 | `Reader` | Lecteur | noun |  |
 | `Reblog` | Rebloguer | verb |  |
 | `recaptcha` | reCAPTCHA | noun | C’est une marque |
@@ -733,6 +734,7 @@
 | `WordPress.com` | WordPress.com | noun |  |
 | `workflow` | flux de travail | noun |  |
 | `wrapper` | conteneur | noun |  |
+| `writable` | accessible en écriture | adjective | dans le contexte des droits accordés sur les fichiers et dossiers |
 | `wysiwig` | WYSIWYG | noun | Acronyme de la locution anglaise « what you see is what you get » |
 
 ## X
