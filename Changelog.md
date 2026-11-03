@@ -10,6 +10,15 @@ Le format s’inspire de [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/
 
 -
 
+## [2026-11-03] — Glossaire 609 termes (02/11/2026)
+
+### Added
+- `readable` → accessible en lecture (adjective) — dans le contexte des droits accordés sur les fichiers et dossiers.
+- `writable` → accessible en écriture (adjective) — dans le contexte des droits accordés sur les fichiers et dossiers.
+
+### Changed
+- Synchronisation du glossaire officiel WordPress FR : **609 termes**, export du **02/11/2026**.
+
 ## [2026-09-12] — Glossaire 607 termes (11/09/2026)
 
 ### Changed

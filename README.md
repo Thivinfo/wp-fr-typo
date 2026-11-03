@@ -1,11 +1,11 @@
 ![wp-fr-typo — Skill Claude Code](banner.svg)
 
-![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-5865F2?style=flat-square&logo=anthropic&logoColor=white)![WordPress 6.0+](https://img.shields.io/badge/WordPress-6.0%2B-0073aa?style=flat-square&logo=wordpress&logoColor=white)![Polyglots FR Conforme](https://img.shields.io/badge/Polyglots%20FR-Conforme-00a32a?style=flat-square)![Glossaire 607 termes](https://img.shields.io/badge/Glossaire-607%20termes-f0b849?style=flat-square)![Licence GPL v2+](https://img.shields.io/badge/Licence-GPL%20v2%2B-%23276749?style=flat-square)
+![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-5865F2?style=flat-square&logo=anthropic&logoColor=white)![WordPress 6.0+](https://img.shields.io/badge/WordPress-6.0%2B-0073aa?style=flat-square&logo=wordpress&logoColor=white)![Polyglots FR Conforme](https://img.shields.io/badge/Polyglots%20FR-Conforme-00a32a?style=flat-square)![Glossaire 609 termes](https://img.shields.io/badge/Glossaire-609%20termes-f0b849?style=flat-square)![Licence GPL v2+](https://img.shields.io/badge/Licence-GPL%20v2%2B-%23276749?style=flat-square)
 
-![Glossaire mis à jour le 11/09/2026](https://img.shields.io/badge/Glossaire%20mis%20à%20jour%20le-11%2F09%2F2026-ff6b35?style=flat-square)
+![Glossaire mis à jour le 02/11/2026](https://img.shields.io/badge/Glossaire%20mis%20à%20jour%20le-02%2F11%2F2026-ff6b35?style=flat-square)
 
 > [!NOTE]
-> **Version du glossaire intégré : 11/09/2026**
+> **Version du glossaire intégré : 02/11/2026**
 > Le glossaire officiel WordPress FR ([translate.wordpress.org](https://translate.wordpress.org/locale/fr/default/glossary/)) est mis à jour régulièrement par l'équipe Polyglots. Si tu constates un écart entre ce skill et le glossaire en ligne, la version en ligne fait foi. N'hésite pas à [ouvrir une issue](https://github.com/thierrypigot/wp-fr-typo/issues) pour signaler un terme à mettre à jour.
 
 > Cursor Automation mets a jour automatiquement le glossaire chaque jour à 11h UTC+2 si le glossaire officiel a été mis à jour ! 
@@ -15,7 +15,7 @@
 > **Vous soumettez une traduction sur GlotPress. Refusée.**
 > Apostrophe droite. Espace insécable manquante. Terme hors glossaire…
 
-Les règles de l'équipe **Polyglots WordPress Francophone** sont strictes, et pour une bonne raison : la cohérence de l'interface WordPress en français en dépend. Mais les maîtriser toutes simultanément (607 termes officiels, typographie, encodage .po, écriture épicène…) relève du parcours du combattant.
+Les règles de l'équipe **Polyglots WordPress Francophone** sont strictes, et pour une bonne raison : la cohérence de l'interface WordPress en français en dépend. Mais les maîtriser toutes simultanément (609 termes officiels, typographie, encodage .po, écriture épicène…) relève du parcours du combattant.
 
 **wp-fr-typo** est un skill [Claude Code](https://claude.ai/code) qui applique automatiquement l'intégralité de ces règles à chaque traduction.
 
@@ -50,7 +50,7 @@ Les règles de l'équipe **Polyglots WordPress Francophone** sont strictes, et p
 
 ## Fonctionnalités
 
-- **Glossaire officiel intégré** : 607 termes issus de [translate.wordpress.org](https://translate.wordpress.org/locale/fr/default/glossary/)
+- **Glossaire officiel intégré** : 609 termes issus de [translate.wordpress.org](https://translate.wordpress.org/locale/fr/default/glossary/)
 - **Typographie française complète** : apostrophes courbes, espaces insécables, guillemets « », points de suspension U+2026, majuscules accentuées
 - **Fichiers .po / GlotPress** : encodage UTF-8 strict, variables gettext intactes, aucun artefact `\uXXXX`
 - **Garde-fous intelligents** : le skill signale ses doutes avec des alternatives plutôt que de choisir silencieusement
